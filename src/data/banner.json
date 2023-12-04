@@ -29,21 +29,9 @@
     ],
     "hometwo":[
        
-        {
-            "id":3,
-            "bg":"assets/img/banner/TDH-diwali-banner.webp"
-        }, {
-            "id":4,
-            "bg":"assets/img/banner/TDH-dhanteras-banner.webp"
-        },
-        {
-            "id":5,
-            "bg":"assets/img/banner/ek-bharat-shreshta-bharat.jpeg"
-        },
-        {
-            "id":6,
-            "bg":"assets/img/banner/tdh-ammammas-banner.webp"
-        },
+       
+      
+       
         {
             "id":7,
             "bg":"assets/img/banner/economic times.png"
@@ -51,15 +39,15 @@
        
         {
             "id":8,
-            "bg":"assets/img/banner/tdh-west-godavari-distributors.webp"
+            "bg":"assets/img/banner/tdh-west-godavari-distributors.png"
         },
         {
             "id":9,
-            "bg":"assets/img/banner/home-background-1200x525.webp"
+            "bg":"assets/img/banner/home-background-1200x525.png"
         },
         {
             "id":10,
-            "bg":"assets/img/banner/tenali-double-horse-sunnundulu.webp"
+            "bg":"assets/img/banner/tenali-double-horse-sunnundulu.png"
         }
       
         

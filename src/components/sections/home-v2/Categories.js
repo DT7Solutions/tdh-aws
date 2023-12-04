@@ -40,7 +40,7 @@ class Menuitems extends Component {
                 </p>
         </div>
             
-            <div className="section section-padding-two  bg-cover bg-center mt-5  pt-0 pb-0 category-section light-pic "  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/tenali-double-horse-homepage-uae-banner.webp)",paddingBottom:'0px!important' }}>
+            <div className="section section-padding-two  bg-cover bg-center mt-5  pt-0 pb-0 category-section light-pic "  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/tenali-double-horse-homepage-uae-banner.png)",paddingBottom:'0px!important' }}>
              
                 <div className="container">
                     {/* Arrow */}

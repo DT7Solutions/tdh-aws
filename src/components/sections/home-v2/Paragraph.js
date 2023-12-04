@@ -62,7 +62,7 @@ class Paragraph extends Component {
         <div className="container">
           <div className="row align-items-center ">
             <div className="col-lg-6 mb-lg-30">
-              <img src={process.env.PUBLIC_URL + "/assets/img/misc/Suma-1600x1279.webp"} alt="img" />
+              <img src={process.env.PUBLIC_URL + "/assets/img/misc/Suma-1600x1279.png"} alt="img" />
             </div>
             <div className="col-lg-6">
               <div className="section-title-wrap mr-lg-30 text-center">

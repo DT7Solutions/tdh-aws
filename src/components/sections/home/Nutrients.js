@@ -75,7 +75,7 @@ class Nobalactivity extends Component {
                               
                                 <div class="img-wrap3  ">
                                  
-                                    <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.webp"} alt="M2" class="img-fluid"  />
+                                    <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/m2-urad-chakki.png"} alt="M2" class="img-fluid"  />
                                 </div>
                                 <div className=' text-center'>
                                 <a

@@ -1,0 +1,106 @@
+[
+    {
+        "id": 20,
+        "imageUrl": "assets/img/newsevents/diwali-wishes.jpeg",
+        "caption": "diwali Wishes"
+    },
+    {
+        "id": 19,
+        "imageUrl": "assets/img/newsevents/divali-enadu-paper-adv.png",
+        "caption": "divali enadu paper adv"
+    },
+    {
+        "id": 18,
+        "imageUrl": "assets/img/newsevents/ek-bharat-shreshta-barat.jpeg",
+        "caption": "ek bharat shreshta barat"
+    },
+    {
+        "id": 17,
+        "imageUrl": "assets/img/newsevents/dasuara-poster-adv.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 16,
+        "imageUrl": "assets/img/newsevents/lepra-donation.jpg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 15,
+        "imageUrl": "assets/img/newsevents/Leprosy.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 14,
+        "imageUrl": "assets/img/newsevents/merite-scoller-two.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 13,
+        "imageUrl": "assets/img/newsevents/merit-stdent-scolr.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+
+    {
+        "id": 12,
+        "imageUrl": "assets/img/newsevents/sakeshi-phireseudaan.jpeg",
+        "caption": "phirese udaan"
+    }
+    ,
+    {
+        "id": 11,
+        "imageUrl": "assets/img/newsevents/tenali-double-horse-all-products-img.png",
+        "caption": "Image 2"
+    }
+    ,  
+    {
+        "id": 10,
+        "imageUrl": "assets/img/newsevents/the-changemaker-of-india.png",
+        "caption": "Image 2"
+    }
+    ,
+    {
+        "id": 9,
+        "imageUrl": "assets/img/newsevents/tenali-double-horse-news-event.jpeg",
+        "caption": "Image 2" 
+    }
+    ,
+    {
+        "id": 6,
+        "imageUrl": "assets/img/newsevents/milite-meals-lanuch.jpeg"
+    },
+    {
+        "id": 7,
+        "imageUrl": "assets/img/newsevents/milite-meals-lanuch-in-bangalore.jpeg"
+    },
+    {
+        "id": 1,
+        "imageUrl": "assets/img/newsevents/tdh-donation-10-lakh-rupes-basavatarakam-cancer-hospital.jpeg"
+    },
+    {
+        "id": 2,
+        "imageUrl": "assets/img/newsevents/industrial-visit-to-tenali-double-horse-09-jan-2023.png"
+    },
+    {
+        "id": 3,
+        "imageUrl": "assets/img/newsevents/shyam-parsed-support-international-hanball-player-madhubabu.jpeg"
+    },
+    {
+        "id": 4,
+        "imageUrl": "assets/img/newsevents/from-tenali-with-love-broacher.jpeg"
+    },
+    {
+        "id": 5,
+        "imageUrl": "assets/img/newsevents/tdh-supply-HIV-patients-nutrition-foods.jpeg"
+    },
+   
+    {
+        "id": 8,
+        "imageUrl": "assets/img/newsevents/covide-test-in-tdh-dall-mill-workers.jpeg",
+        "caption": "Image 1" 
+    }
+]

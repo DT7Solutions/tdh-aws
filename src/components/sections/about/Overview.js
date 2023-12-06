@@ -107,7 +107,7 @@ class TimelineSection extends Component {
                           <source src={"/assets/video/tdh-our-story.mp4"} type="video/mp4" />
                       </video> */}
                       <ReactPlayer
-            url={"/assets/video/tdh-our-story.mp4"}
+            url={"./assets/video/tdh-our-story.mp4"}
             controls
             width="100%"
             height="100%"

@@ -50,7 +50,7 @@ class Camapaing extends Component {
                 </div> */}
                 <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
                         <video width="100%" height="95%" controls >
-                          <source src={process.env.PUBLIC_URL + "/assets/video/tdh-cricket-world-cup.mp4"} type="video/mp4" />
+                          <source src={"/assets/video/tdh-cricket-world-cup.mp4"} type="video/mp4" />
                       </video>
                           
                         </div>

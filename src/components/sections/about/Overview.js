@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import WOW from 'wow.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ReactPlayer from 'react-player';
 
 class TimelineSection extends Component {
 
@@ -102,9 +103,15 @@ class TimelineSection extends Component {
                     <div className="row ourstory-section text-center"  style={backgroundStyles} >
                       <div className='col-lg-8 col-12' >
                        
-                      <video width="100%" height="100%" controls >
+                      {/* <video width="100%" height="100%" controls >
                           <source src={"/assets/video/tdh-our-story.mp4"} type="video/mp4" />
-                      </video>
+                      </video> */}
+                      <ReactPlayer
+            url={"/assets/video/tdh-our-story.mp4"}
+            controls
+            width="100%"
+            height="100%"
+          />
                       
                       </div>
                     </div>

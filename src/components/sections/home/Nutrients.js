@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 // import WOW from 'wow.js';
 import 'animate.css';
-import pdffile from '../../layouts/M2-Brouchure.pdf'
+import pdffile from '../../pages/M2-Brouchure.pdf'
 import { pizzamenu } from '../../../data/menu.json';
 
 class Nobalactivity extends Component {

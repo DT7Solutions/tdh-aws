@@ -36,7 +36,7 @@ class Content extends Component {
                 <Nutrients/>
                 {/* <Nobalactivity /> */}
                 {/* <Instagram/> */}
-                <Camapaing/>
+                {/* <Camapaing/> */}
                 <Latestproducts/>
                
 

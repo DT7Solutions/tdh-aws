@@ -21,7 +21,7 @@ class Home extends Component {
                 <Header/>
             
                 <Content/>
-                <Footer className="footer-with-border"   footer={{ style: "ct-footer", logo: "assets/img/tenali-double-horse-logo-250x73.png"}} />
+                <Footer className="footer-with-border"   footer={{ style: "ct-footer", logo: "assets/img/footer-bg-image.png"}} />
                 {/* <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} /> */}
             </Fragment>
         );

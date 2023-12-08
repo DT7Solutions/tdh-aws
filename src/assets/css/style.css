@@ -687,7 +687,7 @@ textarea{
 	-o-transition: 0.3s;
 	transition: 0.3s;
   text-transform: uppercase;
-  border-radius: 25px;
+  border-radius: 8px;
   z-index: 1;
   -webkit-box-shadow: 4px 3px 24px rgba(237, 78, 83, .5);
           box-shadow: 4px 3px 24px rgba(237, 78, 83, .5);
@@ -722,6 +722,7 @@ textarea{
 .btn-custom:focus{
   color: #fff;
   outline: none;
+  border-radius: 25px;
 }
 .btn-custom.primary{
   background-color: #ED4E53;
@@ -786,6 +787,10 @@ input[type="submit"]:disabled, button[type="submit"]:disabled {
   background-color: #e4e3e8;
   border-color: #e4e3e8;
   cursor: not-allowed;
+}
+
+.footer-social-media{
+  margin-left: -15px !important;
 }
 
 /*==================
@@ -1915,16 +1920,16 @@ table img{
   background-color: #f9f9f9;
   
   /* padding: 80px 0 0; */
-  padding:10px 0 0;
-  border-top: 2px solid #ff1629;
-  /* background-image: url(/assets/img/bg/tenali-double-horse-footer-banner-1900x500.png)!important; */
+  padding:0px 0 0;
+  /* border-top: 2px solid #91291f; */
+  background-image: url(/assets/img/footer-bg-image.png)!important;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 .ct-footer p{
   margin-bottom: 20px;
-  color: #515151;
+  color: whitesmoke !important;
 }
 .footer-top{
   display: -webkit-box;
@@ -1940,7 +1945,7 @@ table img{
 }
 .footer-middle a,
 .footer-middle i{
-  color: #515151;
+  color: whitesmoke !important;
 }
 .footer-middle a:hover{
   color: #ED4E53;
@@ -2054,7 +2059,7 @@ table img{
   text-rendering: auto;
   line-height: 28px;
   margin-left: auto;
-  font-size: 10px;
+  font-size: 12px;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateX(-10px);
@@ -2063,7 +2068,7 @@ table img{
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  color: #ED4E53;
+  color: #f8f6f6;
   padding-right: 10px;
 }
 .footer-widget ul li a i{
@@ -6045,19 +6050,19 @@ td.quantity{
   background-position: center center;
 } */
 .footer-widget .widget-title {
- color: #252525 !important;
+ color: #f7f7f7 !important;
  font-weight: 600;
 }
 .footer-widget ul li a {
-  color: #515151 !important;
+  color: #eeebeb !important;
 }
 
 .footer-copyright{
-  border-top: 1px solid rgb(69, 69, 69) !important;
+  border-top: 1px solid rgb(129, 129, 129) !important;
   padding-bottom: 10px;
 }
 .footer-copyright p{
-  color: rgb(80, 80, 80) !important;
+  color: rgb(204, 203, 203) !important;
 }
 
 /* .main-footer-links{
@@ -8798,10 +8803,14 @@ g .rsm-marker{
 }
 
 .footer-top img{
-  margin-top: 1px;
+  margin-top: 5px;
   position: relative;
   left:-8%;
   z-index: 998;
+}
+.ct-footer{
+background-image: none !important;
+background-color: red;
 }
 .footer-top{
   z-index: 500;
@@ -8841,9 +8850,7 @@ g .rsm-marker{
 .footer-middle .link-2 .widget-title{
   margin-left:-45px;
 }
-.ct-footer{
-  background-image: none !important;
-}
+
 .seed-ganesh img {
   margin-left:30px;
 

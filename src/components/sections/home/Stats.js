@@ -53,7 +53,7 @@ class stats extends Component {
                         {successpost.map((item, i) => (
                             <div key={i} className="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay={item.delay}>
                                 <div className="ct-infographic-item card pt-3 pb-3 with-border-bottom border-0 shadow rounded-3">
-                                    <i className={item.icon} style={{color:'#DE7E76'}} />
+                                    {/* <i className={item.icon} style={{color:'#DE7E76'}} /> */}
                                     <h4 className='text-dark' style={{fontWeight:'800'}}>{new Intl.NumberFormat().format(item.count)}</h4>
                                     <p className='text-dark' style={{fontWeight:'800'}}>{item.title}</p>
                                 </div>

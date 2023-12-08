@@ -6730,17 +6730,19 @@ td.quantity{
 .testimonial .testimonial-content{
   padding: 35px 25px 35px 50px;
   margin-bottom: 35px;
-  min-height: 210px;
-  background:  rgb(227, 227, 227);
+  min-height: 250px;
+  /* background:  rgb(227, 227, 227); */
+  background-color:#ffffff;
   border: 1px solid #f0f0f0;
   position: relative;
+  border-radius: 10px;
 }
 .testimonial .testimonial-content:after{
   content: "";
   display: inline-block;
   width: 20px;
   height: 20px;
-  background:  #f8f8f8;
+  background:  #ff4242;
   position: absolute;
   bottom: -10px;
   left: 22px;
@@ -6772,6 +6774,7 @@ td.quantity{
   font-family:  Helvetica;
   color: #8a8a8a;
   line-height: 23px;
+  text-align: justify;
   margin: 0;
 }
 .testimonial .title{
@@ -6782,6 +6785,9 @@ td.quantity{
   text-transform: capitalize;
   letter-spacing: 1px;
   margin: 0 0 5px 0;
+  position: absolute;
+ 
+  bottom: 4px;
 }
 .testimonial .post{
   display: block;
@@ -9844,5 +9850,28 @@ top: -5px;
 }
 .colour-pink{
   background-color: 'linear-gradient(#fff7ef, #fff7ef)';
+}
 
+@media (min-width: 320px) and (max-width:480px) {
+  .nutrition .card {
+    padding: 2%;
+    position: relative;
+    width: 100%;
+    
+  }
+  .nutrition .card .card-text{
+    font-size: 15px;
+  }
+  .nutrition .card .cardheader img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+  }
+  .nutrition .card .card-title{
+    font-size: 15px;
+  }
+}
+
+.row .content-section{
+  padding-top: 150px;
 }

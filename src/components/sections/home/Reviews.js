@@ -48,8 +48,9 @@ class Reviews extends React.Component {
                       <p className="description">
                       It my personal experience. I came from vizag there we used tenali double horse minapagullu. After i came to tenali regularly i am sending DTH products to my family members n friends at vizag. It is good products
                       </p>
+                      <h3 className="title">-Aditya Ratnam</h3>
                     </div>
-                    <h3 className="title">Aditya Ratnam</h3>
+                    
                     {/* <span className="post">Web Developer</span> */}
                   </div>
   
@@ -61,8 +62,9 @@ class Reviews extends React.Component {
                       <p className="description">
                       Good range of dalls and instant foods ...Most trusted brand in India
                       </p>
+                      <h3 className="title">-bhaskar donepudi</h3>
                     </div>
-                    <h3 className="title">bhaskar donepudi</h3>
+                    {/* <h3 className="title">bhaskar donepudi</h3> */}
                     {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
@@ -73,8 +75,9 @@ class Reviews extends React.Component {
                       <p className="description">
                       Enjoy our Sundays with tdh recipes with family not only breakfast but sweets too... meeting together with delicious food is a long lasting memory. Tq tdh
                       </p>
+                      <h3 className="title">-Radhika Mamidi</h3>
                     </div>
-                    <h3 className="title">Radhika Mamidi</h3>
+                    
                     {/* <span className="post">Web Developer</span> */}
                   </div>
                   <div className="testimonial">
@@ -83,11 +86,11 @@ class Reviews extends React.Component {
                         <i className="fa fa-quote-left"></i>
                       </div>
                       <p className="description">
-                      Good Morning sir.
-I want some branding and advertising in different area.then consumer offer with promoters appointment in top outlets.
+                      Good Morning sir.I want some branding and advertising in different area.then consumer offer with promoters appointment in top outlets.
                       </p>
+                      <h3 className="title">-Subrat Nayak</h3>
                     </div>
-                    <h3 className="title">Subrat Nayak</h3>
+                 
                     {/* <span className="post">Web Developer</span> */}
                   </div>
   

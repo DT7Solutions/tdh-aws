@@ -31,7 +31,7 @@ class Content extends Component {
             <Fragment>
                 <Banner />
                 <Aboutcompany />
-                {/* <Process /> */}
+                <Process />
                 <Productcards />
                 <Nutrients/>
              

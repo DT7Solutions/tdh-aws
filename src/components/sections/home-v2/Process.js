@@ -28,7 +28,7 @@ class Process extends Component {
     }
     render() {
         return (
-            <div className="container-fluid mb-5 nutrition-section pb-5">
+            <div className="container-fluid nutrition-section pb-5">
                 <div className="section-title-wrap section-header text-center pt-5 ">
                     <h5 className="custom-primary">Where Quality Meets Commitment </h5>
                     <h2 className="title">Nourishing Lives with Trusted Nutrition</h2>
@@ -40,9 +40,9 @@ class Process extends Component {
                 <div className="row1-container four-philers">
                               <div className='container'>
                                 <div className='row nutrition'>
-                                <div className='col-lg-6 mt-3'>
+                                <div className='col-lg-6 col-sm-12 mt-3'>
                                         <div className="card border-0 shadow rounded-3">
-                                            <div class="cardheader">
+                                            <div class="cardheader pt-3">
                                             <img src={process.env.PUBLIC_URL + "/assets/img/proccess/high-nutritional.png"} alt="High Nutritional" />
                                             </div>
                                             {/* <div class="hoverimage">
@@ -54,9 +54,9 @@ class Process extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-lg-6 mt-3'>
+                                    <div className='col-lg-6 col-sm-12 mt-3'>
                                         <div className="card border-0 shadow rounded-3">
-                                        <div class="cardheader">
+                                        <div class="cardheader pt-3">
                                             <img src={process.env.PUBLIC_URL + "/assets/img/proccess/superior-quality.png"} alt="Superior Quality" />
                                             </div>
                                             <div className="card-body">
@@ -65,9 +65,9 @@ class Process extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-lg-6 mt-3'>
+                                    <div className='col-lg-6 col-sm-12 mt-4'>
                                         <div className="card border-0 shadow rounded-3">
-                                        <div class="cardheader">
+                                        <div class="cardheader pt-3">
                                             <img src={process.env.PUBLIC_URL + "/assets/img/proccess/trusted-brancd.png"} alt="Trusted Brand" />
                                             </div>
                                             <div className="card-body">
@@ -77,12 +77,12 @@ class Process extends Component {
                                         </div>
                                     </div>
                                     
-                                    <div className='col-lg-6 mt-3'>
+                                    <div className='col-lg-6 col-sm-12 mt-4'>
                                         <div className="card border-0 shadow rounded-3">
-                                        <div class="cardheader">
+                                        <div class="cardheader pt-3">
                                             <img src={process.env.PUBLIC_URL + "/assets/img/proccess/affordable.png"} alt="Affordable" />
                                             </div>
-                                            <div className="card-body">
+                                            <div className="card-body pt-3">
                                             <h5 class="card-title">Affordable</h5>
                                             <p class="card-text">Premium Urad Dal at Affordable prices. Elevate your Daily Routine without compromising on quality. Your satisfaction, our priority.</p>
                                             </div>

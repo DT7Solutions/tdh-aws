@@ -46,7 +46,7 @@ class TimelineSection extends Component {
             width="100%"
             height="100%"
           /> */}
-           <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="95%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/ourstory.png"}>
+           <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/ourstory.png"}>
                           <source src={process.env.PUBLIC_URL + "./assets/video/tdh-our-story.mp4"} type="video/mp4" />
                       </video>
                 <h2 className="title text-center mt-2">Tenali Double Horse</h2> 

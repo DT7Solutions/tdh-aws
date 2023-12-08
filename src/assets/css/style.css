@@ -9803,3 +9803,39 @@ top: -5px;
 .image-radius{
   border-radius: 10px!important;
 }
+
+
+.nutrition-section{
+  width: 100% !important;
+  background-image: url('/assets/img/proccess/process-backeground-image.png');
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.nutrition .card {
+  padding: 15px;
+  position: relative;
+  
+}
+.nutrition .card .cardheader img{
+  height: 80px;
+  width: 80px;
+  margin-left: 15px;
+}
+.nutrition .card .card-title{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: helvetica;
+}
+
+.card .hoverimage{
+  position: absolute;
+  top: 0px;
+  left: 480px;
+  
+ 
+}
+.nutrition .card:hover .hoverimage{
+  transform: rotate(-25deg);
+  top: 20;
+}

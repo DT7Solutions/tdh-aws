@@ -28,8 +28,8 @@ class Process extends Component {
     }
     render() {
         return (
-            <div className="container-fluid mb-5 ">
-                <div className="section-title-wrap section-header text-center ">
+            <div className="container-fluid mb-5 nutrition-section pb-5">
+                <div className="section-title-wrap section-header text-center pt-5 ">
                     <h5 className="custom-primary">Where Quality Meets Commitment </h5>
                     <h2 className="title">Nourishing Lives with Trusted Nutrition</h2>
                     <p className="subtitle">
@@ -38,37 +38,88 @@ class Process extends Component {
                 </div>
 
                 <div className="row1-container four-philers">
-                   
-                            <div className="box box-down cyan wow animate__animated animate__fadeInUp" >
+                              <div className='container'>
+                                <div className='row nutrition'>
+                                <div className='col-lg-6 mt-3'>
+                                        <div className="card border-0 shadow rounded-3">
+                                            <div class="cardheader">
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/proccess/high-nutritional.png"} alt="High Nutritional" />
+                                            </div>
+                                            {/* <div class="hoverimage">
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/proccess/icon-1.png"} alt="High Nutritional" />
+                                            </div> */}
+                                            <div className="card-body">
+                                            <h5 class="card-title">High Nutritional Value</h5>
+                                            <p class="card-text">Abundant nutrients, vitamins, minerals for optimal health through our products.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 mt-3'>
+                                        <div className="card border-0 shadow rounded-3">
+                                        <div class="cardheader">
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/proccess/superior-quality.png"} alt="Superior Quality" />
+                                            </div>
+                                            <div className="card-body">
+                                            <h5 class="card-title ">Superior Quality</h5>
+                                            <p class="card-text ">Delivering excellence in every bite , High-quality standards in terms of freshness, purity, and taste.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 mt-3'>
+                                        <div className="card border-0 shadow rounded-3">
+                                        <div class="cardheader">
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/proccess/trusted-brancd.png"} alt="Trusted Brand" />
+                                            </div>
+                                            <div className="card-body">
+                                            <h5 class="card-title">Trusted Brand</h5>
+                                            <p class="card-text">Building trust with our customers by consistently delivering exceptional quality and reliability.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='col-lg-6 mt-3'>
+                                        <div className="card border-0 shadow rounded-3">
+                                        <div class="cardheader">
+                                            <img src={process.env.PUBLIC_URL + "/assets/img/proccess/affordable.png"} alt="Affordable" />
+                                            </div>
+                                            <div className="card-body">
+                                            <h5 class="card-title">Affordable</h5>
+                                            <p class="card-text">Premium Urad Dal at Affordable prices. Elevate your Daily Routine without compromising on quality. Your satisfaction, our priority.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+
+
+
+
+
+
+                            {/* <div className="box box-down cyan wow animate__animated animate__fadeInUp" >
                                 <h2>Superior Quality</h2>
                                 <p className='content-justify'>Delivering excellence in every bite , High-quality standards in terms of freshness, purity, and taste.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Quality.png"} alt="topicon" />
                             </div>
-                        
-
-                      
                             <div className="box red wow animate__animated animate__fadeInUp" >
                                 <h2>Trusted Brand</h2>
                                 <p className='content-justify'>Building trust with our customers by consistently delivering exceptional quality and reliability.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Trusted.png"} alt="topicon" />
                             </div>
-                        
-                       
                             <div className="box box-down blue wow animate__animated animate__fadeInUp" >
                                 <h2>High Nutritional Value</h2>
                                 <p className='content-justify'>Abundant nutrients, vitamins, minerals for optimal health through our products.</p>
                                 <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Nutritional.png"} alt="topicon" />
-                            </div>
+                            </div> */}
                         
                 </div>
-
-                <div className="row2-container">
+                {/* <div className="row2-container">
                     <div className="box orange wow animate__animated animate__fadeInUp" >
                         <h2>Affordable</h2>
                         <p className='fontcolor content-justify'>Premium Urad Dal at Affordable prices. Elevate your Daily Routine without compromising on quality. Your satisfaction, our priority.</p>
                         <img className="box-img" src={process.env.PUBLIC_URL + "/assets/img/home/Affordable.png"} alt="topicon" />
                     </div>
-                </div>
+                </div> */}
             </div>
         );
     }

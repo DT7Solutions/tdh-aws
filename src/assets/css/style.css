@@ -742,7 +742,7 @@ textarea{
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #1D2228;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 2px solid #ED4E53;
 }
 .btn-custom.light::before{
   background-color: #fff;
@@ -4352,7 +4352,7 @@ td.quantity{
   font-weight: 700;
   color: #1D2228;
   margin: 0;
-  border: 1px solid rgba(0,0,0,.1);
+  /* border: 1px solid rgba(0,0,0,.1); */
   display: inline-block;
   padding: 5px 15px;
   border-radius: 25px;
@@ -9838,4 +9838,8 @@ top: -5px;
 .nutrition .card:hover .hoverimage{
   transform: rotate(-25deg);
   top: 20;
+}
+.colour-pink{
+  background-color: 'linear-gradient(#fff7ef, #fff7ef)';
+
 }

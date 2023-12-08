@@ -58,7 +58,7 @@ class Paragraph extends Component {
     const { show } = this.state;
 
     return (
-      <div className="section   ">
+      <div className="section" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tdh-Suma-download-brochure-background.png)" }}>
         <div className="container">
           <div className="row align-items-center ">
             <div className="col-lg-6 mb-lg-30">

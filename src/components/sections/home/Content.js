@@ -11,16 +11,15 @@ import Menuitems from '../home-v2/Categories';
 import Aboutcompany from './Aboutcompany';
 import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
-// import Nobalactivity from './Nobalactivity';
+
 import Camapaing  from './Camapaing';
 import Paragraph from '../home-v2/Paragraph';
 import Reviews from './Reviews';
 import Feedback from './Feedback';
-// import Instagram from './Instagram';
-// import Messenger from './Messenger';
+
 import Nutrients from './Nutrients'
 import Benefits from '../home-v2/Benefits';
-// import Benefits from '../home-v2/Whychoose'
+
 import Latestproducts from './Latestupdate';
 
 
@@ -32,30 +31,29 @@ class Content extends Component {
             <Fragment>
                 <Banner />
                 <Aboutcompany />
-                <Process />
+                {/* <Process /> */}
+                <Productcards />
                 <Nutrients/>
-                {/* <Nobalactivity /> */}
-                {/* <Instagram/> */}
-                {/* <Camapaing/> */}
+             
                 <Latestproducts/>
                
 
                
                 <Benefits/>
-                {/* <CubeSlider/> */}
+              
 
                 <Menuitems />
 
-                <Productcards />
+               
                 <Stats />
 
                 <Paragraph />
-                <Lazyload />
+                
                 <Reviews/>
 
                 <Socialmedia />
                 <Feedback/>
-                {/* <Messenger/> */}
+               
                
               
             </Fragment>

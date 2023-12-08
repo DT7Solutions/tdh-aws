@@ -16,11 +16,11 @@ class TimelineSection extends Component {
     
     render() {
         const backgroundStyles = {
-            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/light-yellow.png)`,
+          background: 'linear-gradient(#fff7ef, #fff7ef)',
             backgroundRepeat: 'no-repeat',
             backgroundSize:'cover',
             paddingTop:'30px'
-            
+          
             
           };
 

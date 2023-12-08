@@ -1,75 +1,112 @@
-import React, { Component , } from 'react';
-import WOW from 'wow.js';
-import 'animate.css';
+import React, { Component, Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import Slider from 'react-slick';
+import { Modal } from 'react-bootstrap';
+import Quickview from '../../layouts/Quickview';
+import products from "../../../data/homeproducts.json";
+import { Rating } from "../../../helper/helper";
 
-
- class  Cards  extends Component {
-  componentDidMount() {
-    new WOW().init(); 
-}
+class Products extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            modalshow: false,
+            lastActiveBox: -1,
+        };
+        this.modalShow = this.modalShow.bind(this);
+        this.modalClose = this.modalClose.bind(this);
+        this.next = this.next.bind(this);
+        this.previous = this.previous.bind(this);
+    }
+    next() {
+        this.slider.slickNext();
+    }
+    previous() {
+        this.slider.slickPrev();
+    }
+    // Modal
+    modalShow(index) {
+        this.setState({ modalshow: true, lastActiveBox: index });
+    }
+    modalClose() {
+        this.setState({ modalshow: false });
+    }
     render() {
+        const settings = {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        }
         return (
-  
-        <section id="gallery" class="gap-section-top gold-idly " >
-          <div className="section-title-wrap section-header text-center">
-            <h5 className="custom-primary">Flavors of Excellence</h5>
-            <h2 className="title">Discover Our Culinary Treasures</h2>
-            <p>Indulge in a diverse range of superior quality products from Tenali Double Horse. From staples to specialties, explore the finest ingredients that elevate your meals to perfection</p>
-          
-        </div>
-          <div class="container">
-            <div class="row">
-            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp "  data-wow-delay="0.2s">
-            <div class="card alignments " style={{minHeight:'400px',backgroundColor:'transparent'}}>
-            <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-idly-rava.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
-              <div class="card-body">
-                <h5 class="text-center">Idly Rava</h5>
+            <div className=" colour-pink" style={{backgroundColor:'#fff7ef'}}>
+                <div className="container" >
+                    <div className="section-title-wrap section-header text-center">
+                        <h5 className="custom-primary text-center white-bg    mx-auto">Flavors of Excellence</h5>
+                        <h2 className="title">Discover Our Culinary Treasures</h2>
+                        <p>ndulge in a diverse range of superior quality products from Tenali Double Horse. From staples to specialties, explore the finest ingredients that elevate your meals to perfection</p>
+                        
+                    </div>
+                    <Slider className="product-slider " {...settings} ref={c => (this.slider = c)}>
+                      
+                        {products.map((item, i) => (
+                            <div key={i} className="product card  border-0 shadow rounded-3">
+                                <Link className="product-thumb" to={"/menu-item-v1/" + item.id}>
+                                    <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
+                                </Link>
+                                <div className="product-body   border-0 shadow rounded-3 bg-white">
+                                    <div className="product-desc">
+                                        <div>
+                                        <h4> <Link to={"/menu-item-v1/" + item.id}>{item.name}</Link> </h4>
+                                        <p className='mb-0'>{item.shortdesc}</p>
+                                        </div>
+                                        <div>
+                                        <p className="product-price" style={{fontWeight:'800'}}>Rs. {new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
+                                        <div className="ct-rating-wrapper">
+                                                <div className="ct-rating">
+                                                    {Rating(item.rating)}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <a href={"https://tenalidoublehorse.com/products/"} className="btn-custom light btn-sm shadow-none w-100">More Info </a>
+                                        <a href={"https://tenalidoublehorse.com/products/"} className="order-item btn-custom btn-sm shadow-none w-100">Order Now <i className="fas fa-shopping-cart" /> </a>
+                                       
+                                    
+                                </div>
+                            </div>
+                        ))}
+                        {/* Product End */}
+                    </Slider>
+                    <div className="ct-arrows centered-arrows">
+                        <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
+                        <i className="slider-next fas fa-arrow-right slick-arrow" onClick={this.next} />
+                    </div>
+                </div>
                
-                <a href={"#menu-item-v1/9"} target='_blank' className="btn-custom btn-sm">Read more</a>
-               
-              </div>
-             </div>
+                <Modal show={this.state.modalshow} id="customizeModal" onHide={this.modalClose} aria-labelledby="contained-modal-title-vcenter" size="lg" centered>
+                    <Quickview productId={this.state.lastActiveBox}/>
+                </Modal>
             </div>
-          <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
-          <div class="card black alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-urad-gota.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
-              <div class="card-body">
-                <h5 class="text-center">Urad gota</h5>
-              
-               <a href={"#menu-item-v1/1"} target='_blank' className="btn-custom btn-sm">Read more</a>
-              
-              </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
-          <div class="card white alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-toor-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
-              <div class="card-body">
-                <h5 class="text-center">Toor Dall</h5>
-               
-                <a href={"#menu-item-v1/6"}  target='_blank' className="btn-custom btn-sm " >Read more</a>
-               
-              </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 pb-4 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
-            <div class="card yellow alignments "  style={{minHeight:'400px',backgroundColor:'transparent'}} >
-            <img src={process.env.PUBLIC_URL + "/assets/img/home/tenali-double-horse-moong-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
-              <div class="card-body">
-                <h5 class="text-center">Moong Dall</h5>
-               
-                <a href={"#menu-item-v1/7"} target='_blank'  className="btn-custom btn-sm " >Read more</a>
-               
-              </div>
-             </div>
-            </div>
-          </div>
-        </div>
-        </section>
-        
-            
         );
     }
 }
 
-export default Cards;
+export default Products;

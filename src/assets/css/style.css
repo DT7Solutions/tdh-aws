@@ -8809,8 +8809,11 @@ g .rsm-marker{
   z-index: 998;
 }
 .ct-footer{
-background-image: none !important;
-background-color: red;
+background-size: cover!important;
+background-position: 100%!important;
+}
+.footer-widget ul {
+  width:100%!important;
 }
 .footer-top{
   z-index: 500;

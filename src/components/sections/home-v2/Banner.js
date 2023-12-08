@@ -36,7 +36,7 @@ class Banner extends Component {
             }
           }
         return (
-            <div className="banner banner-2">
+            <div className="banner banner-22">
                 <Slider className="banner-slider-2" {...settings}>
                     {bannerpost.map((item, i) => (
                         

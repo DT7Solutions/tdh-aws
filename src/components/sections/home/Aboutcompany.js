@@ -1,61 +1,74 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import WOW from 'wow.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import ReactPlayer from 'react-player';
 
+class TimelineSection extends Component {
 
-
-
-class Aboutcompany extends Component {
     
-    constructor(props) {
-        super(props);
-        this.state = {
-          isVisible: false,
-        };
-        this.sectionRef = React.createRef();
-      }
-    
-      componentDidMount() {
-        const observerOptions = {
-          root: null,
-          rootMargin: '0px',
-          threshold: 0.3, // Adjust this value to control when the section becomes visible during scrolling
-        };
-    
-        const observer = new IntersectionObserver(this.handleIntersection, observerOptions);
-        if (this.sectionRef.current) {
-          observer.observe(this.sectionRef.current);
-        }
-      }
-    
-      handleIntersection = (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            this.setState({ isVisible: true });
-          }
+    componentDidMount() {
+        AOS.init({
+            duration: 1500, 
         });
-      };
+    }
+
+    
     render() {
-        const { isVisible } = this.state;
+        const backgroundStyles = {
+            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/light-yellow.png)`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize:'cover',
+            paddingTop:'30px'
+            
+            
+          };
+
+
+          
         return (
-            <div ref={this.sectionRef} className={`subheader mt-lg-5 mb-5 pt-5   fade-in-section ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-souble-horse-about-section-1900x600.png)", paddingTop:'30px!important' }}>
-                <div className="container" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                {/* <div className='container'> */}
-                    <div className="subheader-inner">
+            <section id="timeline " style={{...backgroundStyles}}>
+                <h5 className="custom-primary text-center white-bg  mb-5  mx-auto" style={{textAlign:"center"}}>Founder Message</h5>
+        {/* <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2> */}
+        
+            
+                <div className="fluid-container video-conatiner mt-3">
+                       
+                   
+                    
+                    <div className="row ourstory-section text-center"  >
+                      <div className='col-lg-8 col-12' >
+                       
                       
-                        <nav  aria-label="breadcrumb breadcrumb-two">
-                            <ol  className="breadcrumb breadcrumb-two ">
-                                <li className="breadcrumb-item "><h5 className="custom-primary" style={{marginBottom:'10px'}}>About</h5></li>
-                                <li className="breadcrumb-item "><h2 className="title" style={{marginBottom:'10px'}}>Tenali Double Horse</h2></li>
-                                <li className="breadcrumb-item active text-dark about-p-text" aria-current="page" style={{textAlign:'justify'}}>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</li>
-                                {/* <a href={"/about"} className="btn-custom  mt-4">Read more</a> */}
-                                <Link  to={"/about"} className="btn-custom primary about-home mt-4">Read More  </Link>
-                            </ol>
-                        </nav>
+                      {/* <ReactPlayer
+            url={"./assets/video/tdh-our-story.mp4"}
+            controls poster={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"}
+            width="100%"
+            height="100%"
+          /> */}
+           <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="95%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/ourstory.png"}>
+                          <source src={process.env.PUBLIC_URL + "./assets/video/tdh-our-story.mp4"} type="video/mp4" />
+                      </video>
+                <h2 className="title text-center mt-2">Tenali Double Horse</h2> 
+                <p> At Teanli Double Horse  Our Journey Begins in 2005 with avision to bring excellence  and trust to every Household in india Guided by our commitment to quality and customer Satisfication , we have since Become a trusted name that resonates with millions </p> 
+                <a
+                  
+                 
+                  className="btn-custom btn-sm shadow-none suma mb-5 "
+                  target="_blank"
+                 
+                >
+                  READ OUR STORY
+                </a>    
+                      </div>
                     </div>
                 </div>
-            </div>
+
+               
+                    
+            </section>
         );
     }
 }
 
-export default Aboutcompany;
+export default TimelineSection;

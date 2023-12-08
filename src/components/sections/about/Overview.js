@@ -103,9 +103,7 @@ class TimelineSection extends Component {
                     <div className="row ourstory-section text-center"  style={backgroundStyles} >
                       <div className='col-lg-8 col-12' >
                        
-                      {/* <video width="100%" height="100%" controls >
-                          <source src={"/assets/video/tdh-our-story.mp4"} type="video/mp4" />
-                      </video> */}
+                      
                       <ReactPlayer
             url={"./assets/video/tdh-our-story.mp4"}
             controls

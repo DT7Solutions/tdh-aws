@@ -2168,10 +2168,11 @@ table img{
 }
 .banner{
   position: relative;
-  padding: 90px 0;
+  /* padding: 90px 0; */
+  padding-top: 90px!important;
   background-size: cover;
   background-position: center;
-  min-height: 800px;
+  min-height: 500px;
 }
 .banner > .container{
   position: absolute;
@@ -7914,6 +7915,8 @@ input[type=radio]:checked ~ label {
   padding: 50px 0;
   background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
+  
+  
   /* border-bottom: 1px solid rgba(191, 191, 191, 0.4); */
 }
 #timeline h1 {
@@ -9780,4 +9783,16 @@ top: -5px;
   border: 7px solid rgba(255,255,255,.2);
   
   border-color: #fff;
+}
+.white-bg{
+  background-color: #fff!important;
+  text-align: center!important;
+  width:fit-content;
+  border : 2px solid #7D7F82;
+  padding: 5px 35px 5px 35px;
+  border-radius: 20px;
+ 
+}
+.image-radius{
+  border-radius: 10px!important;
 }

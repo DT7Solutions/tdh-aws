@@ -80,43 +80,7 @@ class Paragraph extends Component {
                 >
                   Download Brochure
                 </a>
-                {/* <button onClick={this.handleSaveChanges} className="btn-custom">Download brochure</button> */}
-                {/* <Modal show={show} onHide={this.handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Please Enter Details</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Form>
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control
-                  type="email"
-                  placeholder="name@example.com"
-                  autoFocus
-                />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formGroupPassword">
-        <Form.Label>Phone No</Form.Label>
-        <Form.Control type="text" placeholder="Phone No" />
-      </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
-            </Form>
-          </Modal.Body>
-          <Modal.Footer>
-            <button className="btn-custom btn btn-sm" onClick={this.handleClose}>
-              Close
-            </button>
-            <button className="btn-custom btn btn-sm" onClick={this.handleSaveChanges}>
-              Save Changes
-            </button>
-          </Modal.Footer>
-                </Modal> */}
+              
               </div>
             </div>
           </div>

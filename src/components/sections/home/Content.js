@@ -17,7 +17,7 @@ import Paragraph from '../home-v2/Paragraph';
 import Reviews from './Reviews';
 import Feedback from './Feedback';
 // import Instagram from './Instagram';
-import Messenger from './Messenger';
+// import Messenger from './Messenger';
 import Nutrients from './Nutrients'
 import Benefits from '../home-v2/Benefits';
 // import Benefits from '../home-v2/Whychoose'
@@ -55,7 +55,7 @@ class Content extends Component {
 
                 <Socialmedia />
                 <Feedback/>
-                <Messenger/>
+                {/* <Messenger/> */}
                
               
             </Fragment>

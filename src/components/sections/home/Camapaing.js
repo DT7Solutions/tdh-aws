@@ -28,7 +28,7 @@ class Camapaing extends Component {
                         <div class="col-lg-4 pt-50"> 
                             <div class="left"> 
                                 <div class="quality-img"> 
-                                    <img alt="" src={process.env.PUBLIC_URL + "assets/img/mtwo/1.png"} />
+                                    <img src={process.env.PUBLIC_URL + "assets/img/mtwo/1.png"} />
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">Naturally Processed</h2>
@@ -38,7 +38,7 @@ class Camapaing extends Component {
                             </div>
                             <div class="left"> 
                                 <div class="quality-img"> 
-                                    <img alt="" src={process.env.PUBLIC_URL +"assets/img/mtwo/3.png"}/>
+                                    <img src={process.env.PUBLIC_URL +"assets/img/mtwo/3.png"}/>
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">Packed Without Hand Touch</h2>
@@ -48,7 +48,7 @@ class Camapaing extends Component {
                             </div>
                             <div class="left"> 
                                 <div class="quality-img"> 
-                                    <img alt="" src={process.env.PUBLIC_URL +"assets/img/mtwo/6.png"}/>
+                                    <img src={process.env.PUBLIC_URL +"assets/img/mtwo/6.png"}/>
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">The Best In Quality, Taste</h2>
@@ -58,7 +58,7 @@ class Camapaing extends Component {
                             </div>
                             <div class="left "> 
                                 <div class="quality-img"> 
-                                    <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/7.png"}/>
+                                    <img src={process.env.PUBLIC_URL +"assets/img/mtwo/7.png"}/>
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">Processed In a first Fully Atomized Plant</h2>
@@ -73,7 +73,7 @@ class Camapaing extends Component {
                         <div class="col-lg-4 pt-50"> 
                             <div class="right"> 
                                 <div class="quality-img"> 
-                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/2.png"}/>
+                                <img src={process.env.PUBLIC_URL +"assets/img/mtwo/2.png"}/>
                                
                                 </div>
                                 <div class="quality-caption"> 
@@ -84,7 +84,7 @@ class Camapaing extends Component {
                             </div>
                             <div class="right"> 
                                 <div class="quality-img"> 
-                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/9.png"}/>
+                                <img src={process.env.PUBLIC_URL +"assets/img/mtwo/9.png"}/>
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">Superior Quality</h2>
@@ -92,10 +92,10 @@ class Camapaing extends Component {
                                    
                                 </div> 
                             </div>
-                            
+                     
                             <div class="right"> 
                                 <div class="quality-img"> 
-                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/8.png"}/>
+                                <img src={process.env.PUBLIC_URL +"assets/img/mtwo/8.png"}/>
                                 </div>
                                 <div class="quality-caption"> 
                                     <h2 class="title-1">Processed With Desi Black Gram</h2>
@@ -105,7 +105,7 @@ class Camapaing extends Component {
                             </div>
                             <div class="right"> 
                                 <div class="quality-img"> 
-                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/4.png"}/>
+                                <img src={process.env.PUBLIC_URL +"assets/img/mtwo/4.png"}/>
                                
                                 </div>
                                 <div class="quality-caption"> 

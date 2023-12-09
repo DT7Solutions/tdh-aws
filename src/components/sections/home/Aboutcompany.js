@@ -49,7 +49,8 @@ class TimelineSection extends Component {
             height="100%"
           /> */}
            <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
-                          <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" />
+                          <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" />
+                          {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
                       </video>
                 
                 <a

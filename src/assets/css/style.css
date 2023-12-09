@@ -9911,6 +9911,7 @@ top: -5px;
 .row .content-section{
   padding-top: 150px;
 }
+}
 
 @media (max-width: 576px){
 
@@ -9925,7 +9926,14 @@ top: -5px;
   padding: 0 8% 0 8%;
 }
 }
-}
+
+
+@media (min-width: 1400px) and (max-width:2500px) {
+  .container-fluid{
+    padding: 0 20% 0 20%;
+  }
+  }
+
 
 .home-product-slider .product-body{
   min-height: 0px;

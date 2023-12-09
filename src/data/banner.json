@@ -34,21 +34,18 @@
        
         {
             "id":7,
-            "bg":"assets/img/banner/tdh-home-banner.png"
+            "bg":"assets/img/banner/tdh-banner-new.png"
         },
        
         {
             "id":8,
-            "bg":"assets/img/banner/crop.png"
+            "bg":"assets/img/banner/m2-banner.png"
         },
         {
             "id":9,
-            "bg":"assets/img/banner/crop.png"
-        },
-        {
-            "id":10,
-            "bg":"assets/img/banner/crop.png"
+            "bg":"assets/img/banner/tdh-all-products.png"
         }
+        
       
         
     ],

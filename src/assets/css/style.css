@@ -5450,7 +5450,10 @@ td.quantity{
     width: 200px;
   }
   
-
+  .banner,
+  .banner.banner-1 .banner-inner{
+    min-height: 240px;
+  }
 }
 .activites{
   display:flex;
@@ -9874,4 +9877,12 @@ top: -5px;
 
 .row .content-section{
   padding-top: 150px;
+}
+
+@media (max-width: 576px){
+
+.banner {
+    padding:60px 0px 0px 0px!important;
+}
+
 }

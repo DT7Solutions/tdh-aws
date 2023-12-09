@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ReactPlayer from 'react-player';
-import { Player } from 'video-react';
 class TimelineSection extends Component {
 
     

@@ -10028,3 +10028,11 @@ section {
   .home-product-slider .product-desc {
     min-height: 0px;
   }
+
+  .ct-infographic-item img {
+    line-height: 1;
+    display: block;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 60px;
+}

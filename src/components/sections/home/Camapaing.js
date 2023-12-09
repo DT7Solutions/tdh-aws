@@ -8,69 +8,116 @@ let urls = "https://www.amazon.in/dp/B0CCJ825SX?ref=myi_title_dp"
 
 
 class Camapaing extends Component {
-  componentDidMount() {
-    AOS.init({
-        duration: 1500, 
-    });
-}
+ 
     render() {
         return (
         
-          <div>
-            <div className='container mb-5'>
-                    <div>
-                        {/* <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
-                            <h5 className="custom-primary mt-3">Campaign Chronicles  </h5>
-                            <h2 className="title">Explore Our Ongoing Campaigns</h2>
-                            <p className="subtitle ">
-                                Discover the latest buzz in the digital realm. Dive into our ongoing digital or PR campaigns that bring you exciting updates, engaging content, and a taste of the future with Tenali Double Horse.
-                            </p>
-                        </div> */}
-                         <div className="section-title-wrap section-header mb-md-5 mt-lg-5 mt-xl-5  mt-xxl-5 text-center ">
-                            <h5 className="custom-primary mt-3">Unleashing Cricket Fever  </h5>
-                            <h2 className="title">2023 World Cup Excitement</h2>
-                            <p className="subtitle ">
-                            Don't forget to grab your favorite Tenali Double Horse Rishika Sunnundalu and settle in for a rollercoaster ride of thrilling action. Let's come together as Team India supporters and celebrate the magic of cricket. 
-                            </p>
-                        </div>
-                    </div>
-              <div className='row d-flex justify-content-center campaing'>
-                {/* <div className='col-lg-6 col-md-12 col-sm-12'>
-                  
-                    <iframe
-                title="YouTube Video"
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/HNRT0BB78yk"
-                frameborder="0"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-              
-                </div> */}
-                <div className="col-lg-6 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}> 
-                        <video width="100%" height="95%" controls >
-                          <source src={"/assets/video/tdh-cricket-world-cup.mp4"} type="video/mp4" />
-                      </video>
-                          
-                        </div>
-                <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center'>
-                    <div className='mb-lg-5 camp-content'>
-                            <div>
-                                    <p>
-                                    {/* <b>Phir Se Udaan</b> is an initiative by your favourite <b>Tenali Double Horse</b> . With a vision to empower women inside and outside the house. Tenali Double Horse offers only the best quality and nutrition packed range of Dals and Instant foods like Idli and Dosa mixes. */}
-                                    Experience the magic of cricket with <b>Rishika Sunnnadlu</b> in this captivating video! Get ready to cheer and believe as we bring you the excitement of the 2023 World Cup. Don't forget to have your favorite <b>Tenali Double Horse</b> snack by your side as you immerse yourself in the thrilling action. Let's celebrate cricket together and show our united support for <b>Team India!</b>
-                                    </p>
-                            </div>
-                            <div>
-                                    <a href={urls} target='_blank' className="btn-custom Register-campaining">Order Now</a>
-                            </div>
-                        </div>
+          <section class="naturix-quality sec-space-bottom">
+                <div class="pattern"> 
+                    <img alt="" src="assets/img/icons/white-pattern.png"/>
                 </div>
-              </div>
-            </div>
-    
-          </div>
+                <div class="section-icon"> 
+                    <img alt="" src="assets/img/icons/icon-2.png" />
+                </div>
+                <div class="container"> 
+                    <div class="title-wrap pt-15">
+                        <h2 class="section-title pt-15"> <span class="light-font">Premium  </span> <strong> Desi Urad Chakki Dall </strong> </h2>                        
+                        <h4 class="sub-title"> Experience the Goodness of Nature</h4>
+                    </div>
+                    <div class="food-quality block-inline">
+                        <div class="col-lg-4 pt-50"> 
+                            <div class="left"> 
+                                <div class="quality-img"> 
+                                    <img alt="" src={process.env.PUBLIC_URL + "assets/img/mtwo/1.png"} />
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Naturally Processed</h2>
+                                    <span class="divider-2"></span>
+                                   
+                                </div>                               
+                            </div>
+                            <div class="left"> 
+                                <div class="quality-img"> 
+                                    <img alt="" src={process.env.PUBLIC_URL +"assets/img/mtwo/3.png"}/>
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Packed Without Hand Touch</h2>
+                                    <span class="divider-2"></span>
+                                 
+                                </div>                               
+                            </div>
+                            <div class="left"> 
+                                <div class="quality-img"> 
+                                    <img alt="" src={process.env.PUBLIC_URL +"assets/img/mtwo/6.png"}/>
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">The Best In Quality, Taste</h2>
+                                    <span class="divider-2"></span>
+                                  
+                                </div>                               
+                            </div>
+                            <div class="left "> 
+                                <div class="quality-img"> 
+                                    <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/7.png"}/>
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Processed In a first Fully Atomized Plant</h2>
+                                    <span class="divider-2"></span>
+                                  
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center"> 
+                        <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/desgin.png"} alt="M2"   />
+                        </div>
+                        <div class="col-lg-4 pt-50"> 
+                            <div class="right"> 
+                                <div class="quality-img"> 
+                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/2.png"}/>
+                               
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">No Added Preservatives</h2>
+                                    <span class="divider-2"></span>
+                                   
+                                </div> 
+                            </div>
+                            <div class="right"> 
+                                <div class="quality-img"> 
+                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/9.png"}/>
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Superior Quality</h2>
+                                    <span class="divider-2"></span>
+                                   
+                                </div> 
+                            </div>
+                            
+                            <div class="right"> 
+                                <div class="quality-img"> 
+                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/8.png"}/>
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Processed With Desi Black Gram</h2>
+                                    <span class="divider-2"></span>
+                                  
+                                </div> 
+                            </div>
+                            <div class="right"> 
+                                <div class="quality-img"> 
+                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/4.png"}/>
+                               
+                                </div>
+                                <div class="quality-caption"> 
+                                    <h2 class="title-1">Procurement from best Harvesting fields</h2>
+                                    <span class="divider-2"></span>
+                                   
+                                </div> 
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
         );
     }
 }

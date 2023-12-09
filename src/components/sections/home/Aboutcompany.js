@@ -51,11 +51,11 @@ class TimelineSection extends Component {
                       </video> */}
                   {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
 
-                  <a
+                  {/* <a
                     className="btn-custom btn-sm shadow-none suma mb-5 "
                     target="_blank"
                   > READ OUR STORY
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

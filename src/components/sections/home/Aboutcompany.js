@@ -36,17 +36,17 @@ class TimelineSection extends Component {
               <div className="row ourstory-section text-center"  >
                 <div className='col-lg-8 col-12 mx-auto' >
 
-                  {/* <ReactPlayer
-                    url={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"}
+                  <ReactPlayer
+                    url={"./assets/video/tdh-chairmen-video.mp4"}
                     controls
                     poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}
                     width="100%"
                     height="60%"
-                  /> */}
+                  />
                 
-                  <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
+                  {/* <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="60%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
                           <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 
-                      </video>
+                      </video> */}
                   {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
 
                   <a

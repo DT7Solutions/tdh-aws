@@ -44,7 +44,7 @@ class TimelineSection extends Component {
                   /> */}
 
 
-                 <iframe width="700" height="415" src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 <iframe width="700" height="415" src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5' allowfullscreen></iframe>
                 
                   {/* <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="60%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
                           <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 

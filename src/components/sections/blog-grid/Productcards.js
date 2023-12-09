@@ -56,34 +56,36 @@ class Products extends Component {
         }
         return (
             <div className="colour-pink" style={{backgroundColor:'#fff7ef'}}>
-                <div className="container" >
+                <div className="container-fluid">
                     <div className="section-title-wrap section-header text-center pt-5">
                         <h5 className="custom-primary text-center white-bg mx-auto">Flavors of Excellence</h5>
                         <h2 className="title">Discover Our Culinary Treasures</h2>
                         <p>ndulge in a diverse range of superior quality products from Tenali Double Horse. From staples to specialties, explore the finest ingredients that elevate your meals to perfection</p>
                         
                     </div>
-                    <Slider className="product-slider " {...settings} ref={c => (this.slider = c)}>
+                    <Slider className="product-slider home-product-slider " {...settings} ref={c => (this.slider = c)}>
                       
                         {products.map((item, i) => (
                             <div key={i} className="product card  border-0 shadow rounded-3">
-                                <Link className="product-thumb" to={"/menu-item-v1/" + item.id}>
+                                
+                                <Link className="product-thumb pt-3" to={"/menu-item-v1/" + item.id}>
                                     <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
                                 </Link>
                                 <div className="product-body   border-0 shadow rounded-3 bg-white">
                                     <div className="product-desc">
                                         <div>
                                         <h4> <Link to={"/menu-item-v1/" + item.id}>{item.name}</Link> </h4>
-                                        <p className='mb-0'>{item.shortdesc}</p>
+                                        <p className="product-price" style={{fontWeight:'800'}}>Rs. {new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
+                                        {/* <p className='mb-0'>{item.shortdesc}</p> */}
                                         </div>
-                                        <div>
+                                        {/* <div>
                                         <p className="product-price" style={{fontWeight:'800'}}>Rs. {new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
                                         <div className="ct-rating-wrapper">
                                                 <div className="ct-rating">
                                                     {Rating(item.rating)}
                                                 </div>
                                         </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     
                                     <a href={"https://tenalidoublehorse.com/products/"} className="btn-custom light btn-sm shadow-none w-100">More Info </a>

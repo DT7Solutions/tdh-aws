@@ -16,7 +16,7 @@ class Footer extends Component {
         return (
             <footer id="footer-bg section section-padding" className={this.props.footer.style} style={{position: 'relative'}} >
                 {/* Top Footer */}
-                <div className="container">
+                <div className="container-fluid">
                     <div className="footer-top">
                         {/* <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
@@ -29,7 +29,7 @@ class Footer extends Component {
                 </div>
                 {/* Middle Footer */}
                 <div className="footer-middle ">
-                    <div className="container ">
+                    <div className="container-fluid">
                     <div className="footer-logo mb-3">
                             <img src={process.env.PUBLIC_URL + "/assets/img/tdh-footer-logo-main.png"} alt="logo" />
                         </div>

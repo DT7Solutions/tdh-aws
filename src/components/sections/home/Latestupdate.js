@@ -20,7 +20,13 @@ class Latestproducts extends Component {
             <div className='container mb-5'>
                   
                     <div className='row d-flex justify-content-center campaing'>
+                    <div className="col-lg-6 mb-lg-30 " style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            {/* <video controls poster="/assets/img/misc/ammas-thd-collabaration with.png">
+                                <source src={process.env.PUBLIC_URL + "/assets/video/ammama.mp4"} type="video/mp4" />
+                            </video> */}
+                             <a href="https://www.instagram.com/reel/Cyh2CcyN2Kd/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><img src={process.env.PUBLIC_URL + "/assets/img/misc/Collabaration with.png"}  alt="img" className=' mb-2' /></a>
 
+                        </div>
                         
                         <div className='col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center'>
                             <div className='mb-lg-5 camp-content'>
@@ -37,13 +43,7 @@ class Latestproducts extends Component {
                                 </div> */}
                             </div>
                         </div>
-                        <div className="col-lg-6 mb-lg-30 " style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            {/* <video controls poster="/assets/img/misc/ammas-thd-collabaration with.png">
-                                <source src={process.env.PUBLIC_URL + "/assets/video/ammama.mp4"} type="video/mp4" />
-                            </video> */}
-                             <a href="https://www.instagram.com/reel/Cyh2CcyN2Kd/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><img src={process.env.PUBLIC_URL + "/assets/img/misc/Collabaration with.png"}  alt="img" className=' mb-2' /></a>
-
-                        </div>
+                       
                     </div>
             </div>
     

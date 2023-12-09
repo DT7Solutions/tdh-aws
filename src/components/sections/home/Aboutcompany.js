@@ -28,7 +28,9 @@ class TimelineSection extends Component {
           
         return (
             <section id="timeline " style={{...backgroundStyles}}>
-                <h5 className="custom-primary text-center white-bg  mb-5  mx-auto" style={{textAlign:"center"}}>Founder Message</h5>
+                {/* <h5 className="custom-primary text-center white-bg  mb-5  mx-auto" style={{textAlign:"center"}}>Founder Message</h5> */}
+                <h2 className="title text-center mt-2">Tenali Double Horse</h2> 
+                <p className="text-center" style={{width:'75%', margin:"auto"}}> At Teanli Double Horse  Our Journey Begins in 2005 with avision to bring excellence  and trust to every Household in india Guided by our commitment to quality and customer Satisfication , we have since Become a trusted name that resonates with millions </p> 
         {/* <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2> */}
         
             
@@ -46,11 +48,10 @@ class TimelineSection extends Component {
             width="100%"
             height="100%"
           /> */}
-           <video className='shadow p-1  mb-2 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/ourstory.png"}>
-                          <source src={process.env.PUBLIC_URL + "./assets/video/tdh-our-story.mp4"} type="video/mp4" />
+           <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
+                          <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" />
                       </video>
-                <h2 className="title text-center mt-2">Tenali Double Horse</h2> 
-                <p> At Teanli Double Horse  Our Journey Begins in 2005 with avision to bring excellence  and trust to every Household in india Guided by our commitment to quality and customer Satisfication , we have since Become a trusted name that resonates with millions </p> 
+                
                 <a
                   
                  

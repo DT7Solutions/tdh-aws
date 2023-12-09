@@ -58,10 +58,10 @@ class Paragraph extends Component {
     const { show } = this.state;
 
     return (
-      <div className="section" style={{ height:"550px",backgroundposition:"center", backgroundsize: "cover", backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/suma-broacher.png)" }}>
+      <div className="section suma-section" >
         <div className="container">
           <div className="row align-items-center ">
-          <div className="col-lg-6 content-section">
+          <div className="col-sm-12 col-lg-6 content-section order-sm-2 order-lg-1">
               <div className="section-title-wrap mr-lg-30 text-center">
                 <h5 className="custom-primary">Explore Our Story</h5>
                 <h2 className="title">Download Our  Brochure</h2>
@@ -80,8 +80,8 @@ class Paragraph extends Component {
               
               </div>
             </div>
-            <div className="col-lg-6 mb-lg-30">
-              {/* <img src={process.env.PUBLIC_URL + "/assets/img/misc/Suma-1600x1279.png"} alt="img" /> */}
+            <div className="col-sm-12 col-lg-6 mb-lg-30 suma-img-explore order-sm-1 order-lg-2">
+              <img src={process.env.PUBLIC_URL + "/assets/img/misc/Suma-1600x1279.png"} alt="img" />
             </div>
            
           </div>

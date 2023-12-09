@@ -38,7 +38,7 @@ class Process extends Component {
                 </div>
 
                 <div className="row1-container four-philers">
-                              <div className='container'>
+                              {/* <div className='container'> */}
                                 <div className='row nutrition'>
                                 <div className='col-lg-6 col-sm-12 mt-3'>
                                         <div className="card border-0 shadow rounded-3">
@@ -89,7 +89,7 @@ class Process extends Component {
                                         </div>
                                     </div>
                                 </div>
-                              </div>
+                              {/* </div> */}
 
 
 

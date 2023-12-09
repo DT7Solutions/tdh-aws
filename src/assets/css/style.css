@@ -9825,7 +9825,7 @@ top: -5px;
 }
 
 .nutrition .card {
-  padding: 15px;
+  /* padding: 15px; */
   position: relative;
   
 }
@@ -9855,6 +9855,17 @@ top: -5px;
   background-color: 'linear-gradient(#fff7ef, #fff7ef)';
 }
 
+.suma-section{
+  background-image: url('/assets/img/bg/suma-broacher.png');
+  background-position:center;
+  background-size:cover;
+  height: 500px;
+}
+
+.suma-img-explore{
+  display: none;
+}
+
 @media (min-width: 320px) and (max-width:480px) {
   .nutrition .card {
     padding: 2%;
@@ -9873,6 +9884,28 @@ top: -5px;
   .nutrition .card .card-title{
     font-size: 15px;
   }
+  .suma-section{
+    background-image: none;
+    height: 610px;
+  }
+  .content-section{
+    order: 1;
+  }
+  .suma-img-explore{
+    display: block;
+    order: 2;
+    /* margin-top: -750px; */
+
+  }
+
+  /* .row .content-section{
+    margin-top: -100px;
+  } */
+  
+}
+@media (min-width: 720px) and (max-width:1600px) {
+.row .content-section{
+  padding-top: 110px;
 }
 
 .row .content-section{
@@ -9885,4 +9918,18 @@ top: -5px;
     padding:60px 0px 0px 0px!important;
 }
 
+}
+
+@media (min-width: 320px) and (max-width:1600px) {
+.container-fluid{
+  padding: 0 8% 0 8%;
+}
+}
+}
+
+.home-product-slider .product-body{
+  min-height: 0px;
+}
+.home-product-slider .product-desc {
+  min-height: 0px;
 }

@@ -73,7 +73,7 @@ class Camapaing extends Component {
                         <div class="col-lg-4 pt-50"> 
                             <div class="right"> 
                                 <div class="quality-img"> 
-                                <img alt=""src={process.env.PUBLIC_URL +"assets/img/mtwo/2.png"}/>
+                                <img alt=""src={process.env.PUBLIC_URL +"/assets/img/mtwo/2.png"}/>
                                
                                 </div>
                                 <div class="quality-caption"> 

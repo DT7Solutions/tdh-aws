@@ -37,7 +37,7 @@ class TimelineSection extends Component {
                 <div className='col-lg-8 col-12' >
 
                   <ReactPlayer
-                    url={"./assets/video/tdh-chairmen-video.mp4"}
+                    url={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"}
                     controls
                     poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}
                     width="90%"

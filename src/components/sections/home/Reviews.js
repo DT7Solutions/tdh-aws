@@ -28,8 +28,8 @@ class Reviews extends React.Component {
       };
   
       return (
-        <div className="demo">
-          <div className="container">
+        <div className="demo" >
+          <div className="container ">
           <div className="section-title-wrap section-header text-center pt-5">
                         <h5 className="custom-primary">Voices of Delight</h5>
                         <h2 className="title">Customer Testimonials</h2>

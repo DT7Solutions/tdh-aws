@@ -15,8 +15,8 @@ class Socialmedia extends Component {
 }
     render() {
         return (
-        
-          <div className="social-icons mb-5 mt-3 " data-aos="fade-in" data-aos-delay="400" style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
+        <div className=''>
+          <div className="social-icons mb-5 mt-3" data-aos="fade-in" data-aos-delay="400" style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
          
           <ul className="wrapper" >
             <li className="icon facebookf">
@@ -61,6 +61,7 @@ class Socialmedia extends Component {
               </a>
             </li>
           </ul>
+          </div>
           </div>
         );
     }

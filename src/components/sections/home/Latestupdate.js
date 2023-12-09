@@ -24,7 +24,7 @@ class Latestproducts extends Component {
                             {/* <video controls poster="/assets/img/misc/ammas-thd-collabaration with.png">
                                 <source src={process.env.PUBLIC_URL + "/assets/video/ammama.mp4"} type="video/mp4" />
                             </video> */}
-                             <a href="https://www.instagram.com/reel/Cyh2CcyN2Kd/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><img src={process.env.PUBLIC_URL + "/assets/img/misc/Collabaration with.png"}  alt="img" className=' mb-2' /></a>
+                             <a href="https://www.instagram.com/reel/Cyh2CcyN2Kd/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><img src={process.env.PUBLIC_URL + "/assets/img/misc/ammammas-idly-batter.png"}  alt="img" className=' mb-2' /></a>
 
                         </div>
                         

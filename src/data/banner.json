@@ -44,7 +44,12 @@
         {
             "id":9,
             "bg":"assets/img/banner/tdh-all-products.png"
+        },
+        {
+            "id":10,
+            "bg":"assets/img/banner/tdh-foods-banner.png"
         }
+        
         
       
         

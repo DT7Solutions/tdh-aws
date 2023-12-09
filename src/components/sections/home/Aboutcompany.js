@@ -35,13 +35,13 @@ class TimelineSection extends Component {
               <div className="row ourstory-section text-center"  >
                 <div className='col-lg-8 col-12 mx-auto' >
 
-                  <ReactPlayer
+                  {/* <ReactPlayer
                     url={"./assets/video/tdh-chairmen-video.mp4"}
                     controls
                     poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}
                     width="100%"
                     height="60%"
-                  />
+                  /> */}
 
 
                  <iframe width="700" height="415" src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

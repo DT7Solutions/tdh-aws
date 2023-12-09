@@ -7,27 +7,27 @@ import  box from '../../../assets/img/bg/box 2.svg'
 
 const successpost = [
     {
-        icon: "box",
+        icon: "fas fa-medal",
         count: 18,
         title: "Years of Experience",
         delay:"0.4s"
     },
     {
-        icon:  "flaticon-destination",
+        icon:  "fas fa-globe",
         count: 12,
         title: "Total countries",
         delay:"0.6s"
     },
    
     {
-        icon:  "flaticon-india",
+        icon:  "fas fa-map",
         count: 18,
         title: "States",
         delay:"0.8s"
     },
     
     {
-        icon: "flaticon-box",
+        icon: "fas fa-box-open",
         count: 10,
         title: "Products",
         delay:"0.9s"
@@ -53,7 +53,7 @@ class stats extends Component {
                         {successpost.map((item, i) => (
                             <div key={i} className="col-lg-3 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp" data-wow-delay={item.delay}>
                                 <div className="ct-infographic-item card pt-3 pb-3 with-border-bottom border-0 shadow rounded-3">
-                                    {/* <i className={item.icon} style={{color:'#DE7E76'}} /> */}
+                                    <i className={item.icon} style={{color:'#DE7E76'}} />
                                     <h4 className='text-dark' style={{fontWeight:'800'}}>{new Intl.NumberFormat().format(item.count)}</h4>
                                     <p className='text-dark' style={{fontWeight:'800'}}>{item.title}</p>
                                 </div>

@@ -34,19 +34,19 @@ class TimelineSection extends Component {
             {/* <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2> */}
             <div className="fluid-container video-conatiner mt-3">
               <div className="row ourstory-section text-center"  >
-                <div className='col-lg-8 col-12' >
+                <div className='col-lg-8 col-12 mx-auto' >
 
-                  <ReactPlayer
+                  {/* <ReactPlayer
                     url={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"}
                     controls
                     poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}
-                    width="90%"
-                    height="80%"
-                  />
+                    width="100%"
+                    height="60%"
+                  /> */}
                 
-                  {/* <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
-                          <source src=".././assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 
-                      </video> */}
+                  <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="90%" height="80%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
+                          <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 
+                      </video>
                   {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
 
                   <a

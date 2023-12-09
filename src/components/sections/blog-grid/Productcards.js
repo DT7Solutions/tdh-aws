@@ -88,7 +88,7 @@ class Products extends Component {
                                         </div> */}
                                     </div>
                                     
-                                    <a href={"https://tenalidoublehorse.com/products/"} className="btn-custom light btn-sm shadow-none w-100">More Info </a>
+                                    <a href={"https://tenalidoublehorse.com/products/"} className="btn-custom light btn-sm shadow-none w-100 mb-2">More Info </a>
                                         <a href={"https://tenalidoublehorse.com/products/"} className="order-item btn-custom btn-sm shadow-none w-100">Order Now <i className="fas fa-shopping-cart" /> </a>
                                        
                                     
@@ -98,8 +98,8 @@ class Products extends Component {
                         {/* Product End */}
                     </Slider>
                     <div className="ct-arrows centered-arrows">
-                        <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
-                        <i className="slider-next fas fa-arrow-right slick-arrow" onClick={this.next} />
+                        <i className="slider-prev fas fa-arrow-left slick-arrow mb-3" onClick={this.previous} />
+                        <i className="slider-next fas fa-arrow-right slick-arrow mb-3" onClick={this.next} />
                     </div>
                 </div>
                

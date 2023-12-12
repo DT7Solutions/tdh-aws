@@ -5485,7 +5485,7 @@ td.quantity{
   padding:10px;
 
   display:flex;
-  background-color:white;
+  /* background-color:white; */
 }
 .Legacy-Container{
   margin:20px;
@@ -10122,4 +10122,27 @@ section {
 .sub-pages-menu ul .active{
   text-decoration: underline;
   font-weight: 700;
+}
+.origins-main-section{
+  background-image: url('/assets/img/about/about-background.png');
+  padding-bottom: 10px;
+}
+
+.origins-section .swiper-container{
+  padding: 10px;
+  padding-right: 11px;
+  margin-bottom: 100px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: white;
+}
+
+.values-section{
+  background-image: url('/assets/img/about/our-mission-vision.png');
+}
+
+.tdh-legacy-principles{
+  background-color: white;
+  padding: 18px;
+  border-radius: 12px;
 }

@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 
-
+// swiperjs
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+// import 'swiper/swiper.min.css';
+import 'swiper/swiper-bundle.css';
+import SwiperCore from 'swiper'
+import { Autoplay } from 'swiper';
+// Install Swiper modules
+SwiperCore.use([Autoplay]);
 
 
 class Aboutcompany extends Component {
@@ -14,45 +22,65 @@ class Aboutcompany extends Component {
         this.sectionRef = React.createRef();
       }
     
-      componentDidMount() {
-        const observerOptions = {
-          root: null,
-          rootMargin: '0px',
-          threshold: 0.3, // Adjust this value to control when the section becomes visible during scrolling
-        };
+     
     
-        const observer = new IntersectionObserver(this.handleIntersection, observerOptions);
-        if (this.sectionRef.current) {
-          observer.observe(this.sectionRef.current);
-        }
-      }
-    
-      handleIntersection = (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            this.setState({ isVisible: true });
-          }
-        });
-      };
+      
     render() {
-        const { isVisible } = this.state;
+  
         return (
-            <div ref={this.sectionRef} className={`subheader mt-lg-5 mb-5 pt-5  fade-in-section ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-souble-horse-about-section-1900x600.png)", paddingTop:'30px!important' }}>
-                <div className="container" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                    <div className="subheader-inner">
-                      
-                        <nav  aria-label="breadcrumb breadcrumb-two">
-                            <ol  className="breadcrumb breadcrumb-two ">
-                                <li className="breadcrumb-item "><h5 className="custom-primary" style={{marginBottom:'10px'}}>About</h5></li>
-                                <li className="breadcrumb-item "><h2 className="title" style={{marginBottom:'10px'}}>Tenali Double Horse</h2></li>
-                                <li className="breadcrumb-item active text-dark about-p-text" aria-current="page" style={{textAlign:'justify'}}>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</li>
-                                {/* <a href={"/about"} className="btn-custom  mt-4">Read more</a> */}
-                                {/* <Link  to={"/about"} className="btn-custom primary mt-4">Read More  </Link> */}
-                            </ol>
-                        </nav>
+          <div className='origins-main-section'>
+            <div className="container">
+              <div className="origins-section">
+                <div className='pt-5 pb-5'>
+                    <h5 className="custom-primary text-center white-bg mx-auto ">Unveilling Our Origins</h5>
+                    <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2>
+                  </div>
+                
+                  <div className='mb-4'>
+                  <Swiper
+                  spaceBetween={50}
+                  slidesPerView={1}
+                  onSlideChange={() => console.log('slide change')}
+                  onSwiper={(swiper) => console.log(swiper)}
+                  autoplay={{ delay: 4000 }}
+                  loop={true}
+                  navigation={false}
+                >
+                  <SwiperSlide>
+                    <div className="row d-flex">
+                      <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
+                        <div className=''>
+                          <h3 className="text-start">THE BEGINNING</h3>
+                          <p>Tenali Double Horse, renowned for high-quality dals and ready-to-eat products, started in 2005 when Shri Munagala Krishnamurthy planted a seed in Tenali, Andhra Pradesh. His care nurtured Sri Krishnamurthy's Mahendra Dall Mill, supplying premium urad dall in 50-kilogram packs.</p>
+                        </div>
+                      </div>
+                      <div className='col-sm-12 col-lg-6'>
+                          <img src={process.env.PUBLIC_URL + "/assets/img/about/slider-1.png"} alt="img" />
+                      </div>
                     </div>
-                </div>
+
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="row d-flex">
+                      <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
+                        <div className=''>
+                          <h3 className="text-start">THE BEGINNING</h3>
+                          <p>Tenali Double Horse, renowned for high-quality dals and ready-to-eat products, started in 2005 when Shri Munagala Krishnamurthy planted a seed in Tenali, Andhra Pradesh. His care nurtured Sri Krishnamurthy's Mahendra Dall Mill, supplying premium urad dall in 50-kilogram packs.</p>
+                        </div>
+                      </div>
+                      <div className='col-sm-12 col-lg-6'>
+                          <img src={process.env.PUBLIC_URL + "/assets/img/about/slider-1.png"} alt="img" />
+                      </div>
+                    </div>
+
+                  </SwiperSlide>
+                </Swiper>
+                  </div>
+             
+
+              </div>
             </div>
+          </div>
         );
     }
 }

@@ -51,12 +51,12 @@ class Menuitems extends Component {
                                             productcategory.filter(item => {
                                                 return item.id === category
                                             }).map((cat, i) => (
-                                                <h5 className="custom-primary text-light" key={i}>{cat.title}</h5>
+                                                <h5 className="custom-primary " key={i}>{cat.title}</h5>
                                             ))
                                         ))}
 
-                                        <h3 className='text-light'>{item.name}</h3>
-                                        <p className='text-light'>{item.shortdesc}</p>
+                                        <h3 className=''>{item.name}</h3>
+                                        <p className=''>{item.shortdesc}</p>
                                         <a href={item.urls} target='_blank' className="btn-custom">Order Now</a>
                                     </div>
 

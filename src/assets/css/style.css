@@ -6128,7 +6128,7 @@ td.quantity{
   background-size: cover;
   background-position: center;
    
-  padding: 100px 0 40px;
+  padding: 250px 0 40px;
   display: flex;
   align-items: flex-end;
 }
@@ -8867,7 +8867,14 @@ background-position: 100%!important;
   margin-left:30px;
 
 }
+.submenu-section{
+  display: none;
 }
+
+
+}
+
+
 @media (min-width:769px) and (max-width: 1500px){
   .seed-ganesh img {
     border-radius: 4px;
@@ -10106,4 +10113,13 @@ section {
   position: absolute;
   top: 70%;
   left: 50%;
+}
+
+.sub-pages-menu ul li{
+  color: white;
+  font-size: 18px;
+}
+.sub-pages-menu ul .active{
+  text-decoration: underline;
+  font-weight: 700;
 }

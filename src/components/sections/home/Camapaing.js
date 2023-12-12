@@ -12,7 +12,7 @@ class Camapaing extends Component {
     render() {
         return (
         
-          <section class="naturix-quality sec-space-bottom">
+          <section class="naturix-quality sec-space-bottom" style={{backgroundColor:"#f9fae6"}}>
                 <div class="pattern"> 
                     <img alt="" src="assets/img/icons/white-pattern.png"/>
                 </div>
@@ -21,11 +21,11 @@ class Camapaing extends Component {
                 </div>
                 <div class="container"> 
                     <div class="title-wrap pt-15">
-                        <h2 class="section-title pt-15"> <span class="light-font">Premium  </span> <strong> Desi Urad Chakki Dall </strong> </h2>                        
+                        <h2 class="section-title pt-15 text-light"> <span class="light-font">Premium  </span> <strong> Desi Urad Chakki Dall </strong> </h2>                        
                         <h4 class="sub-title"> Experience the Goodness of Nature</h4>
                     </div>
                     <div class="food-quality block-inline">
-                        <div class="col-lg-4 pt-50"> 
+                        <div class="col-lg-4 col-sm-12  pt-50"> 
                             <div class="left"> 
                                 <div class="quality-img"> 
                                     <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
@@ -67,10 +67,10 @@ class Camapaing extends Component {
                                 </div>                               
                             </div>
                         </div>
-                        <div class="col-lg-4 text-center"> 
+                        <div class="col-lg-4 col-sm-12 text-center"> 
                         <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/desgin.png"} alt="M2"   />
                         </div>
-                        <div class="col-lg-4 pt-50"> 
+                        <div class="col-lg-4 col-sm-12 pt-50"> 
                             <div class="right"> 
                                 <div class="quality-img"> 
                                 <img alt=""src={process.env.PUBLIC_URL +"/assets/img/mtwo/2.png"}/>
@@ -117,6 +117,49 @@ class Camapaing extends Component {
                         </div>
                     </div>                    
                 </div>
+                {/* <div className='m2-main-section'>
+                <div className='m2-main-image'>
+                <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/desgin.png"} alt="M2"   />
+                </div>
+                <div className='m2-surround-image bg-dark'>
+                    <div className='item-1 p-1'>
+                        <h6>title</h6>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    </div>
+                </div>
+                <div className='m2-surround-image'>
+                <div className='item-1 p-1'>
+                        <h6>title</h6>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    </div>
+                </div>
+                <div className='m2-surround-image'>
+                <div className='item-1 p-1'>
+                        <h6>title</h6>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    </div>
+                </div>
+                <div className='m2-surround-image'>
+                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                </div>
+                <div className='m2-surround-image'>
+                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                </div>
+                <div className='m2-surround-image'>
+                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                </div>
+                <div className='m2-surround-image'>
+                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                </div>
+                <div className='m2-surround-image'>
+                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                </div>
+
+                </div> */}
+
+
+
+
             </section>
         );
     }

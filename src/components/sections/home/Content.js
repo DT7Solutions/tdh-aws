@@ -37,7 +37,7 @@ class Content extends Component {
              
                 <Latestproducts/>
                
-<Camapaing/>
+                {/* <Camapaing/> */}
                
                 <Benefits/>
               

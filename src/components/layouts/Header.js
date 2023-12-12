@@ -21,7 +21,7 @@ class Header extends HeaderComponent {
     }
 
     handleScroll = () => {
-        const headerHeight = 90; // You can adjust this value based on your header's height
+        const headerHeight = 80; // You can adjust this value based on your header's height
         const isSticky = window.scrollY > headerHeight;
         // this.setState({ isSticky });
         const isScrolled = window.scrollY > 0; // Check if the user has scrolled (added)

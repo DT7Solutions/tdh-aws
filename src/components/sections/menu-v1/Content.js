@@ -114,7 +114,7 @@ class Content extends Component {
         };
         const renderAll = this.state.filteredProducts.map((item, i) => (
             <div key={i} className="col-lg-4 col-md-6 col-sm-12 masonry-item sides">
-                <div className="product">
+                <div className="product card  border-0 shadow rounded-3">
                     <div className="favorite">
                         <i className="far fa-heart" />
                     </div>
@@ -130,16 +130,18 @@ class Content extends Component {
                                 </div>
                             </div>
                             <p>{item.shortdesc}</p>
-                            {/* <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}>More info<i className="fas fa-plus" /> </Link> */}
-                        </div>
-                        <div className="product-controls">
-                        {item.price === 0 ? <p></p>:
+                            {item.price === 0 ? <p></p>:
                             <p className="product-price">{item.symbol} 
                             {new Intl.NumberFormat().format((item.price).toFixed(2))}
                             </p>
                         }
-                            {/* <a href={ item.urls} className="order-item btn-custom btn-sm shadow-none">Order <i className="fas fa-shopping-cart" /> </a> */}
-                            <a  className="order-item btn-custom btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)} >More info<i className="fas fa-plus" /> </a>
+                            {/* <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}>More info<i className="fas fa-plus" /> </Link> */}
+                        </div>
+                        <div >
+                        
+                        <a className="order-item btn-custom light btn-sm shadow-none w-100 mb-2" onClick={(e) => this.modalShow(item.id)} >More info<i className="fas fa-plus" /> </a>
+                            <a href={ item.urls} className="order-item btn-custom btn-sm shadow-none w-100">Order <i className="fas fa-shopping-cart" /> </a>
+
                         </div>
                     </div>
                 </div>

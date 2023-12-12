@@ -4251,7 +4251,7 @@ td.quantity{
 
 /* 8.7. Menu Pages */
 .ct-menu-categories{
-  background-color: #ED4E53;
+  background-color:#F9FAE6;
   padding: 20px;
 }
 .ct-menu-category-item{
@@ -4288,7 +4288,7 @@ td.quantity{
   margin-bottom: 30px;
 }
 .product-body{
-  min-height:400px;
+  min-height:300px;
   display:flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -4310,9 +4310,9 @@ td.quantity{
 .product-desc{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .product .product-thumb{
@@ -4559,7 +4559,7 @@ td.quantity{
 .menu-v2 .product .product-controls{
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

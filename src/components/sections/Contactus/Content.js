@@ -7,7 +7,7 @@ import Messenger from '../home/Messenger';
 import Feedback from '../home/Feedback';
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from 'emailjs-com';
-
+import Maplocations from './Maplocations';
 
 
 
@@ -51,13 +51,7 @@ class Content extends Component {
 
       sendEmail = async (e) => {
         e.preventDefault();
-        // const recaptchaValue = this.recaptchaRef.current.getValue(); // Get the reCAPTCHA value
-
-        // if (!recaptchaValue) {
-          
-        //   console.error("Please complete the reCAPTCHA");
-        //   return;
-        // }
+       
     
         try {
           await emailjs.sendForm('service_u0jehlt', 'template_3b2mxe5', this.form.current, 'cjCRUWDX0cKAQSKL6')
@@ -87,90 +81,49 @@ class Content extends Component {
         return (
             <Fragment>
             
-            <div className="section" style={{ paddingBottom: '0px' }}>
+            <div className="section1" style={{ paddingBottom: '0px' }}>
 
-              <div className="fluid-container locations-wrapper">
+              <div className="fluid-container locations-wrapper ">
                 <div className="container">
-                  <div className="section-title-wrap text-center mb-5">
-                    <h5 className="custom-primary">Connect with Us</h5>
-                    <h2 className="title">Reach Out to Tenali Double Horse</h2>
-                    <p className="subtitle">
-                      Find our corporate and factory addresses along with contact information. We're here to assist you. Feel free to get in touch for inquiries, feedback, or any assistance you need.
-                    </p>
-                  </div>
                   <div className="row  p-2">
-                    <div className="col-lg-7  mb-lg-5 ">
-
-                      <div className="row row-cols-1 row-cols-md-2">
-                        <div className="col-lg-12 col-md-12  col-sm-12   ">
-                          <div className="row  top-row">
-                            <div className="col-lg-6  col-sm-12 mb-3 d-flex email-toll-card1">
-                              <div><i className='fas fa-envelope mt-3 phone-email' style={{ fontSize: '30px', color: 'white' }} /></div> &nbsp;
-                              <div className='mt-1'>Email<h5 className="card-title"> <a href="mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></h5></div>
-                            </div>
-                            <div className="col-lg-6  col-sm-12   mb-3 d-flex email-toll-card2">
-                              <div><i className='fas fa-phone-volume mt-3 phone-icon' style={{ fontSize: '33px', color: '#ED4E53' }} /></div> &nbsp;
-                              <div className='mt-1'>Toll Free Number<h5 className="card-title"> <a href="tel: 1800 270 567567">1800 270 567567</a></h5></div>
-                            </div>
+                    <div className="col-lg-7  mb-lg-5 d-flex align-items-center">
+                      <div className='container contact-container'>
+                      <div className="row ">
+                      <h5 className="custom-primary text-start white-bg">Contact Us</h5>
+                        <h3 className="custom-primary">Honors and Accolades That<br />Define Us</h3>
+                        <p>Find our corporate and factory addresses along with contact information. We're here to assist you. Feel free to get in touch for inquiries, feedback, or any assistance you need.</p>
+                      </div>
+                      <div className="row contact-info d-flex ">
+                        <div className="col-lg-6">
+                          <div className='card shadow p-2 mb-3'>
+                          <i className='fas fa-phone mt-3'></i>
+                            <h5 className="custom-primary">Too Free Number</h5>
+                            <p><a href="tel: 1800 270 567567">1800 270 567567</a></p>
                           </div>
+
+
+                        </div>
+                        <div className="col-lg-6">
+                          <div className='card shadow p-2 mb-3'>
+                          <i className='fas fa-envelope mt-3 phone-email'></i>
+                            <h5 className="custom-primary">Email Address</h5>
+                            <p> <a href="mailto: info@tenalidoublehorse.com">info@tenalidoublehorse.com</a></p>
+                          </div>
+
                         </div>
                       </div>
-                      {/* <div className='container'> */}
-
-                      <div className="col-lg-12 pt-3 pb-3 mb-3 shadow " style={{ borderRadius: '8px' }}>
-                        <h5 className="custom-primary">Regional Office Address</h5>
-                        <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
-                        <div className='d-flex'>
-                          <div>
-                            <i class='fas fa-location-arrow pr-2' style={{ fontSize: '20px', color: '#7e8083', textAlign: "justify" }} />
-                          </div>
-                          <div>
-                            <p> JK TOWERS, 8-2-293/82/B/S-7, 2nd Floor, Road Number 10C, Gayatri Hills,
-                              Jubilee Hills, Hyderabad, Telangana 500033</p>
-                          </div>
-                        </div>
-
-
-                        <button type="button" className="btn-custom btn-sm order-btn">
-                          <a href="https://goo.gl/maps/XiEweexpzdsBQoC96" target='_blank'>Get directions</a>
-                        </button>
                       </div>
-
-                      <div className="col-lg-12 pt-3 pb-3 mb-5 shadow bg-rounded " style={{ borderRadius: '8px' }}>
-                        <h5 className="custom-primary">Factory  Address</h5>
-                        <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
-                        <div className='d-flex'>
-                          <div>
-                            <i class='fas fa-location-arrow pr-2' style={{ fontSize: '20px', color: '#7e8083', textAlign: "justify" }} />
-                          </div>
-                          <div>
-                            <p> Nandivelugu, Nandivelugu (Post) 522 306 TENALI,   Guntur Dist, A.P</p>
-                          </div>
-                        </div>
-
-
-                        <button type="button" className="btn-custom btn-sm order-btn">
-                          <a href="https://goo.gl/maps/kFJS3WnhyJWUNGbu5" target='_blank'>Get directions</a>
-                        </button>
-                      </div>
-
-                      {/* </div> */}
-
-
                     </div>
-                    <div className="col-lg-5 ">
-                      <div className="row  top-row">
-                        <div className="col-lg-12 col-sm-12 mb-3 p-2 d-flex email-toll-card3 pb-3" style={{ display: 'flex', justifyContent: 'start', alignItems: 'center', }}>
-                          <div><i className='fas fa-file-invoice mt-3 mr-3 phone-icon' style={{ fontSize: '28px', color: ' #ED4E53', marginLeft:'10px' }} /></div> &nbsp;
-                          <div> <h5 className="text-white mb-0 mt-2"> We Value Your Input</h5></div>
-
-
-
+                    <div className="col-lg-5 mt-5">
+                      {/* <div className="row  top-row">
+                        
+                      </div> */}
+                      <div>
+                      
+                        <form className='mb-5 shadow px-3 bg-light pb-4 pt-4' style={{borderRadius:'8px'}} ref={this.form} onSubmit={this.sendEmail}>
+                        <div className='form-mess'>
+                          <p className='py-3 text-danger'>We Value Your Input</p>
                         </div>
-                      </div>
-
-
-                      <div><form className='mb-5 shadow p-2' style={{borderRadius:'8px'}} ref={this.form} onSubmit={this.sendEmail}>
                           <div className="row">
                             <div className="form-group col-lg-6">
                               <input
@@ -394,7 +347,7 @@ class Content extends Component {
                   </div>
                 </div>
 
-
+                 <Maplocations/>
                 <Factorylocation />
               </div>
             </div>

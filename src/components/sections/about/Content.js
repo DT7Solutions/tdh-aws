@@ -10,6 +10,7 @@ import Overview from "../about/Overview";
 import Tdhf from './Tdhf';
 import Aboutcompany from '../home/Aboutcompany';
 import Grateplace from '../home/Grateplace';
+const pagelocation = 'AboutUs'
 
 class Content extends Component {
     render() {
@@ -17,7 +18,7 @@ class Content extends Component {
             <Fragment>
                <Tdhabout/>
                <Rules/>
-               <Aboutcompany />
+               <Aboutcompany pagename={{pagename: pagelocation}}/>
                <Tdhf/>
                {/* <Tdhgroup/> */}
                {/* <Overview/> */}

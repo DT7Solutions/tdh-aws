@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 // import WOW from 'wow.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ReactPlayer from 'react-player';
-class TimelineSection extends Component {
+// import ReactPlayer from 'react-player';
+import { Link } from 'react-router-dom';
 
+
+
+class TimelineSection extends Component {
     
     componentDidMount() {
         AOS.init({
@@ -27,13 +30,13 @@ class TimelineSection extends Component {
           
         return (
           <section id="timeline " style={{ ...backgroundStyles }}>
-            {/* <h5 className="custom-primary text-center white-bg  mb-5  mx-auto" style={{textAlign:"center"}}>Founder Message</h5> */}
-            <h2 className="title text-center mt-2">Tenali Double Horse</h2>
-            <p className="text-center" style={{ width: '75%', margin: "auto" }}> At Teanli Double Horse  Our Journey Begins in 2005 with avision to bring excellence  and trust to every Household in india Guided by our commitment to quality and customer Satisfication , we have since Become a trusted name that resonates with millions </p>
-            {/* <h2 className="title text-center">A Timeline of Growth, Innovation, and Impact</h2> */}
+              <div className="section-title-wrap section-header text-center pt-5">
+                        <h2 className="title">Tenali Double Horse</h2>
+                        <p>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</p>
+              </div>
             <div className="fluid-container video-conatiner mt-3">
               <div className="row ourstory-section text-center"  >
-                <div className='col-lg-8 col-12 mx-auto about-video' >
+                <div className='col-lg-12   about-video'>
 
                   {/* <ReactPlayer
                     url={"./assets/video/tdh-chairmen-video.mp4"}
@@ -43,25 +46,24 @@ class TimelineSection extends Component {
                     height="60%"
                   /> */}
 
-
-                 <iframe  src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5' allowfullscreen></iframe>
-                
+                  <div>
+                    <iframe  src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5 mx-auto' allowfullscreen></iframe>
+                 </div>
                   {/* <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="60%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
                           <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 
                       </video> */}
                   {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
-
-                  {/* <a
-                    className="btn-custom btn-sm shadow-none suma mb-5 "
-                    target="_blank"
-                  > READ OUR STORY
-                  </a> */}
+                
+                  {this.props.pagename.pagename === "AboutUs" ? (
+                    "") : (
+                    <Link to="/about" className="btn-custom btn-sm shadow-none suma mb-5">
+                      READ OUR STORY
+                    </Link>
+                  )}
+                  {/* <Link to="/about" className=" btn-custom btn-sm shadow-none suma mb-5 "> READ OUR STORY </Link> */}
                 </div>
               </div>
             </div>
-
-
-
           </section>
         );
     }

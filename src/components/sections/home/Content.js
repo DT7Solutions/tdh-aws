@@ -21,7 +21,7 @@ import Nutrients from './Nutrients'
 import Benefits from '../home-v2/Benefits';
 
 import Latestproducts from './Latestupdate';
-
+const pagelocation = 'home'
 
 
 
@@ -30,7 +30,7 @@ class Content extends Component {
         return (
             <Fragment>
                 <Banner />
-                <Aboutcompany />
+                <Aboutcompany pagename={{pagename: pagelocation}}/>
                 <Process />
                 <Productcards />
                 <Nutrients/>

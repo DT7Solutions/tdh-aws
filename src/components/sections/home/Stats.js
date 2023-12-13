@@ -41,7 +41,7 @@ class Stats extends Component {
                     <div className="section-title-wrap section-header text-center">
                         <h2 className="title text-white">Empowering Progress</h2>
                         <p className="subtitle text-white">
-                            Explore the statistics that define Tenali Double Horse's journey. From years of excellence to a growing customer base, discover the metrics that highlight our commitment to quality and growth.
+                        Explore the statistics that define Tenali Double Horse's journey. From years of excellence to a growing customer base, discover the metrics that highlight our commitment to quality and growth.
                         </p>
                     </div>
                     <div className="row " >

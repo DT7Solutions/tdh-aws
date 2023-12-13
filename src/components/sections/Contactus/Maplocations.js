@@ -51,10 +51,10 @@ class Maplocations extends Component {
                       <div className="col-lg-12  pt-3 pb-3 mb-3" >
                         <div className='location-card shadow'>
                             <h5 className="custom-primary">Regional Office Address</h5>
-                            <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                            <p><i className='fas fa-phone pr-2'  /> +91 9666389389</p>
                             <div className='d-flex'>
                             <div>
-                                <i class='fas fa-location-arrow pr-2' style={{ fontSize: '20px', color: '#7e8083', textAlign: "justify" }} />
+                                <i class='fas fa-location-arrow pr-2' style={{ textAlign: "justify" }} />
                             </div>
                             <div>
                                 <p> JK TOWERS, 8-2-293/82/B/S-7, 2nd Floor, Road Number 10C, Gayatri Hills,
@@ -70,10 +70,10 @@ class Maplocations extends Component {
                       <div className="col-lg-12 pt-3 pb-3 mb-5">
                       <div className='location-card shadow'>
                             <h5 className="custom-primary">Factory  Address</h5>
-                            <p><i className='fas fa-phone pr-2' style={{ fontSize: '20px', color: '#7e8083' }} /> +91 9666389389</p>
+                            <p><i className='fas fa-phone pr-2' /> +91 9666389389</p>
                             <div className='d-flex'>
                             <div>
-                                <i class='fas fa-location-arrow pr-2' style={{ fontSize: '20px', color: '#7e8083', textAlign: "justify" }} />
+                                <i class='fas fa-location-arrow pr-2' style={{  textAlign: "justify" }} />
                             </div>
                             <div>
                                 <p> Nandivelugu, Nandivelugu (Post) 522 306 TENALI,   Guntur Dist, A.P</p>
@@ -94,7 +94,7 @@ class Maplocations extends Component {
                       <iframe
                             src={this.state.mapSrc}
                             width="600"
-                            height="500"
+                            height="550"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"

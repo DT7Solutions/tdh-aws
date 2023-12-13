@@ -191,24 +191,7 @@ class Content extends Component {
                                                                      
                                         </li>
                                         <button type="button" className="btn-custom btn-sm ">Order Now</button>
-                                        {/* <li>
-                                            <span>Tags: </span>
-                                            <div className="product-meta-item">
-                                                {item.tags.slice(0, 4).map((tag) => (
-                                                    blogtags.filter(item => {
-                                                        return item.id === tag
-                                                    }).map((tags, i) => (
-                                                        <Link key={i} to={"/blog/tag/" + tags.id}>{tags.title}, </Link>
-                                                    ))
-                                                ))}
-                                            </div>
-                                        </li> 
-                                        <li>
-                                            <span>SKU: </span>
-                                            <div className="product-meta-item">
-                                                <span>{item.sku}</span>
-                                            </div>
-                                        </li>*/}
+                                        
                                     </ul>
                                     {/* /Product Meta */}
                                 </div>

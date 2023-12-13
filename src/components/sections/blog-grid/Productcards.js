@@ -60,7 +60,7 @@ class Products extends Component {
                     <div className="section-title-wrap section-header text-center pt-5">
                         <h5 className="custom-primary text-center white-bg mx-auto">Flavors of Excellence</h5>
                         <h2 className="title">Discover Our Culinary Treasures</h2>
-                        <p>ndulge in a diverse range of superior quality products from Tenali Double Horse. From staples to specialties, explore the finest ingredients that elevate your meals to perfection</p>
+                        <p>Indulge in a diverse range of superior quality products from Tenali Double Horse. Explore the finest ingredients that perfectly elevate your meals, from staples to specialties.</p>
                         
                     </div>
                     <Slider className="product-slider home-product-slider " {...settings} ref={c => (this.slider = c)}>

@@ -236,7 +236,7 @@ class Content extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="product-thumb">
-                            <h4 className='pb-4'>Coking Inspirations for the Product</h4>
+                            <h4 className='pb-4'>Cooking Inspirations for the Product</h4>
                                 <Swiper
                                     spaceBetween={50}
                                     slidesPerView={2}

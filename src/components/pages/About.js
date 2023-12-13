@@ -24,7 +24,7 @@ class About extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation,bannerimg:bannerimg }} />
                 <Submenu pagename={{pagename: pagelocation}}/>
-                <Content/>
+                <Content />
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-135x73.png" }} />
             </Fragment>
         );

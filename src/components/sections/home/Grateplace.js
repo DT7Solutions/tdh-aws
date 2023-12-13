@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 // import WOW from 'wow.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ReactPlayer from 'react-player';
-
+// import ReactPlayer from 'react-player';
+const grateplacetowork = "/assets/video/great-place.mp4"
 
 
 
@@ -45,7 +45,7 @@ class Grateplace extends Component {
                  {/* <iframe  src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5' allowfullscreen></iframe> */}
                 
                   <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="80%" height="60%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/great-place-to-work.png"}>
-                          <source src="/assets/video/great-place.mp4" type="video/mp4" /> 
+                          <source src={grateplacetowork} type="video/mp4" /> 
                   </video>
                 </div>
               </div>

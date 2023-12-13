@@ -88,8 +88,8 @@ class Products extends Component {
                                         </div> */}
                                     </div>
                                     
-                                    <a href={"https://tenalidoublehorse.com/products/"} className="btn-custom light btn-sm shadow-none w-100 mb-2">More Info </a>
-                                        <a href={"https://tenalidoublehorse.com/products/"} className="order-item btn-custom btn-sm shadow-none w-100">Order Now <i className="fas fa-shopping-cart" /> </a>
+                                    <a onClick={(e) => this.modalShow(item.id)} className="btn-custom light btn-sm shadow-none w-100 mb-2">More Info </a>
+                                        <a href="#" className="order-item btn-custom btn-sm shadow-none w-100">Order Now <i className="fas fa-shopping-cart" /> </a>
                                        
                                     
                                 </div>

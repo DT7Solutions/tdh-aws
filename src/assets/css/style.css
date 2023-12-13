@@ -9813,7 +9813,7 @@ top: -5px;
   -o-transition: .3s;
   transition: .3s;
   margin-bottom: 10px;
-  border: 7px solid rgba(255,255,255,.2);
+  /* border: 7px solid rgba(255,255,255,.2); */
   
   border-color: #fff;
 }
@@ -10176,4 +10176,8 @@ section {
 }
 .contact-info .card i{
   font-size: 28px;
+}
+.pagination li {
+  margin-left: 8px!important;
+  margin-right: 8px!important;
 }

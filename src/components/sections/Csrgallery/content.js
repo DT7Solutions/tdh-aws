@@ -79,6 +79,7 @@ function Csrgallery() {
           containerClassName={'pagination'}
           activeClassName={'active'}
         />
+      
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import ReactPlayer from 'react-player';
-const grateplacetowork = "/assets/video/great-place.mp4"
+const grateplacetowork = process.env.PUBLIC_URL + "/assets/video/tdh-chairmen-video.mp4"
 
 
 

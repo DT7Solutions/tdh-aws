@@ -10,6 +10,8 @@
         "productsafetyimg2": "assets/img/safety-images/no-presivatives.png",
         "productsafetyimg3": "assets/img/safety-images/food-safaty.png",
         "productsafetyimg4": "assets/img/safety-images/100p-Natural.png",
+        "cookingimg1": "assets/img/prods-sm/cooking-imgs/dosa.png",
+        "cookingimg2": "assets/img/prods-sm/cooking-imgs/vada.png",
 
         
         "name": "Urad Gota 1Kg",
@@ -27,11 +29,8 @@
             {
                 
             "Brand":"Tenali Double Horse",
-            "Speciality":"suitable for vegetarians",
-            "Diet Type":"Vegetarian",
             "Item Weight ":"1 Kilograms",
             "Variety":"Lentils",
-            "Organic" :"No",
             "Container Maximum Shelf Life" :"4 Months"
             }
         ],
@@ -152,9 +151,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"5 Kilograms",
+                "Weight ":"1 Kilograms",
                 "Item Form":"Whole"
                 }
                 
@@ -280,8 +277,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -408,8 +403,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"Chemical Free, High Fiber",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms",
                 "Region of Origin":"india"
                 }
@@ -536,8 +529,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"No chemicals, pesticides, preservatives",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -676,8 +667,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
             
@@ -805,8 +794,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1/2 Kilograms"
                 }
             
@@ -1061,10 +1048,7 @@
         ],
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
                 "Weight ":"1 Kilograms",
-                
-               
                 "100% Natural": "We believe in providing you with authentic products, free from artificial additives or preservatives.",
                 "Form :Whole Polished ":"yes",
                 "Container Maximum Shelf Life": "6 Months"
@@ -1193,8 +1177,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms",
                 "Premium Quality":"Our Idly Ravva is made from the highest quality ingredients, ensuring superior taste and texture for your idlis.",
                 "Soft and Fluffy Idlis":" Experience the joy of soft, fluffy idlis with our specially crafted idli rava.",
@@ -1326,9 +1308,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -1450,8 +1430,6 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -1574,9 +1552,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -1698,9 +1674,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -1824,8 +1798,6 @@
         "countery":"qtr",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -1948,8 +1920,6 @@
         "countery":"qtr",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -2072,8 +2042,6 @@
         "countery":"qtr",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -2197,8 +2165,6 @@
         "countery":"qtr",
         "bulletpoints": [
             {
-                
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms",
                 "Nutrient-Rich": "Urad dall is a nutritional powerhouse, packed with protein, fiber, vitamins, and minerals. It's an excellent source of plant-based protein, making it an ideal choice for vegetarians "
                 }
@@ -2322,8 +2288,6 @@
         "countery":"qtr",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -2585,8 +2549,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"2LB"
                 }
         ],
@@ -2708,8 +2670,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"1 Kilograms"
                 }
         ],
@@ -2831,8 +2791,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"2LB"
                 }
         ],
@@ -2953,8 +2911,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"4LB"
                 }
         ],
@@ -3076,8 +3032,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"4LB"
                 }
         ],
@@ -3199,8 +3153,6 @@
         "countery":"usa",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
                 "Weight ":"4LB"
                 }
         ],
@@ -3323,9 +3275,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -3448,9 +3398,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -3572,9 +3520,8 @@
         ],
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+               
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -3710,9 +3657,7 @@
         ],
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [
@@ -3835,9 +3780,7 @@
         "countery":"ind",
         "bulletpoints": [
             {
-                "Speciality":"suitable for vegetarians",
-                "Diet Type":"Vegetarian",
-                "Weight ":"1 Kilograms"
+                "Weight ":"30 Kilograms"
                 }
         ],
         "sizes": [

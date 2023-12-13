@@ -2,8 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { getProduct } from '../../../helper/Producthelper';
 import { Rating } from "../../../helper/helper";
-// import productcategory from "../../../data/productcategory.json";
-// import blogtags from '../../../data/blogtags.json';
 import { Tab, Nav } from "react-bootstrap";
 import Relatedproduct from '../../layouts/Relatedproductone';
 import Feedback from '../home/Feedback';
@@ -11,12 +9,6 @@ import Messenger from '../home/Messenger';
 
 // swiperjs
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// // Styles must use direct files imports
-// import 'swiper/swiper.scss'; // core Swiper
-// import 'swiper/modules/navigation/navigation.scss'; // Navigation module
-// import 'swiper/modules/pagination/pagination.scss'; // Pagination module
-
 import 'swiper/swiper-bundle.css';
 import SwiperCore ,{ Navigation } from 'swiper'
 import { Autoplay } from 'swiper';
@@ -240,6 +232,32 @@ class Content extends Component {
                     </div>
                     
                 </div>
+                <div className="container mb-5">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="product-thumb">
+                            <h4 className='pb-4'>Coking Inspirations for the Product</h4>
+                                <Swiper
+                                    spaceBetween={50}
+                                    slidesPerView={2}
+                                    onSlideChange={() => console.log('slide change')}
+                                    onSwiper={(swiper) => console.log(swiper)}
+                                    autoplay={{ delay: 4000 }}
+                                    loop={true}
+                                    navigation={true}
+                                >
+                                    <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.cookingimg1} alt={item.name} /></SwiperSlide>
+                                    <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.cookingimg2} alt={item.name} /></SwiperSlide>
+                                    <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.cookingimg1} alt={item.name} /></SwiperSlide>
+                                    <SwiperSlide><img src={process.env.PUBLIC_URL + "/" + item.cookingimg2} alt={item.name} /></SwiperSlide>
+
+                                </Swiper>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+
                 <Relatedproduct productId={item.countery}/>
                 <Feedback/>
                 <Messenger/>

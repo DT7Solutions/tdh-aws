@@ -19,7 +19,7 @@ class Camapaing extends Component {
                 <div class="section-icon"> 
                     <img alt="" src="assets/img/icons/icon-2.png" />
                 </div>
-                <div class="container"> 
+                {/* <div class="container"> 
                     <div class="title-wrap pt-15">
                         <h2 class="section-title pt-15 text-light"> <span class="light-font">Premium  </span> <strong> Desi Urad Chakki Dall </strong> </h2>                        
                         <h4 class="sub-title"> Experience the Goodness of Nature</h4>
@@ -116,46 +116,61 @@ class Camapaing extends Component {
                             </div>
                         </div>
                     </div>                    
-                </div>
-                {/* <div className='m2-main-section'>
+                </div> */}
+                <div className='m2-main-section'>
                 <div className='m2-main-image'>
-                <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/desgin.png"} alt="M2"   />
+                {/* <img  src={process.env.PUBLIC_URL + "/assets/img/banner/icons/desgin.png"} alt="M2"   /> */}
                 </div>
-                <div className='m2-surround-image bg-dark'>
+                <div className='m2-surround-image'>
                     <div className='item-1 p-1'>
-                        <h6>title</h6>
                         <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
                     </div>
                 </div>
                 <div className='m2-surround-image'>
-                <div className='item-1 p-1'>
-                        <h6>title</h6>
+                    <div className='item-1 p-1'>
                         <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
                     </div>
                 </div>
                 <div className='m2-surround-image'>
-                <div className='item-1 p-1'>
-                        <h6>title</h6>
+                    <div className='item-1 p-1'>
                         <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
                     </div>
                 </div>
                 <div className='m2-surround-image'>
-                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    <div className='item-1 p-1'>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
+                    </div>
                 </div>
                 <div className='m2-surround-image'>
-                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    <div className='item-1 p-1'>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
+                    </div>
                 </div>
                 <div className='m2-surround-image'>
-                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    <div className='item-1 p-1'>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
+                    </div>
                 </div>
                 <div className='m2-surround-image'>
-                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    <div className='item-1 p-1'>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
+                    </div>
                 </div>
                 <div className='m2-surround-image'>
-                <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                    <div className='item-1 p-1'>
+                        <img alt="" src={process.env.PUBLIC_URL + "/assets/img/mtwo/1.png"} />
+                        <h6>title</h6>
+                    </div>
                 </div>
 
-                </div> */}
+                </div>
 
 
 

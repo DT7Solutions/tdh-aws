@@ -10071,7 +10071,7 @@ section {
 /* m2section new */
 .m2-main-section{
   position: relative;
-  height: 600px;
+  height: 650px;
 }
 .m2-main-image{
   position: absolute;
@@ -10080,7 +10080,7 @@ section {
 .m2-surround-image{
   position: absolute;
   top: 0%;
-  left: 48%;
+  left: 50%;
 }
 .m2-surround-image:nth-child(2){
   position: absolute;
@@ -10090,31 +10090,31 @@ section {
 .m2-surround-image:nth-child(3){
   position: absolute;
   top: 15%;
-  left: 62%;
+  left: 70%;
 }
 .m2-surround-image:nth-child(4){
   position: absolute;
-  top: 38%;
-  left: 68%;
+  top: 50%;
+  left: 80%;
 }
 .m2-surround-image:nth-child(5){
   position: absolute;
-  top: 38%;
-  left: 25%;
+  top: 50%;
+  left: 20%;
 }
 .m2-surround-image:nth-child(6){
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 30%;
 }
 .m2-surround-image:nth-child(7){
   position: absolute;
-  top: 60%;
-  left: 62%;
+  top: 80%;
+  left: 70%;
 }
 .m2-surround-image:nth-child(8){
   position: absolute;
-  top: 70%;
+  top: 95%;
   left: 50%;
 }
 

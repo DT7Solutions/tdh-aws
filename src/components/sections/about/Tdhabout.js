@@ -46,7 +46,7 @@ class Aboutcompany extends Component {
                   loop={true}
                   navigation={false}
                 >
-                  <SwiperSlide>
+                  <SwiperSlide className='p-3'>
                     <div className="row d-flex">
                       <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
                         <div className=''>
@@ -60,7 +60,7 @@ class Aboutcompany extends Component {
                     </div>
 
                   </SwiperSlide>
-                  <SwiperSlide>
+                  <SwiperSlide className='p-3'>
                     <div className="row d-flex">
                       <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
                         <div className=''>
@@ -73,7 +73,7 @@ class Aboutcompany extends Component {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  <SwiperSlide className='p-3'>
                     <div className="row d-flex">
                       <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
                         <div className=''>
@@ -86,7 +86,7 @@ class Aboutcompany extends Component {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  <SwiperSlide className='p-3'>
                     <div className="row d-flex">
                       <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
                         <div className=''>
@@ -99,7 +99,7 @@ class Aboutcompany extends Component {
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  <SwiperSlide className='p-3'>
                     <div className="row d-flex">
                       <div className='col-sm-12 col-lg-6 d-flex align-items-center'>
                         <div className=''>

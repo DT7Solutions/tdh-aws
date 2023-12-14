@@ -173,7 +173,7 @@ class Content extends Component {
                                         <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                                     </div>
                                     <div className="menu-category-desc">
-                                        <h6>{item.title}</h6>
+                                        <h6 style={{color:'#77241D'}}>{item.title}</h6>
                                     </div>
                                 </Link>
                             ))}

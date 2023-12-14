@@ -36,7 +36,7 @@ class Stats extends Component {
     }
     render() {
         return (
-            <div className="section section-padding  bg-cover bg-center " style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-tdh.png)" }} >
+            <div className="section section-padding bg-parallax  bg-cover bg-center " style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-tdh.png)" }} >
                 <div className="container" >
                     <div className="section-title-wrap section-header text-center">
                         <h2 className="title text-white">Empowering Progress</h2>

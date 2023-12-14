@@ -40,8 +40,8 @@ class Reviews extends React.Component {
             <div className="row">
               <div className="col-md-12">
                 <Slider {...settings}>
-                  <div className="testimonial">
-                    <div className="testimonial-content">
+                  <div className="testimonial ">
+                    <div className="testimonial-content border-0 shadow rounded-3">
                       <div className="testimonial-icon">
                         <i className="fa fa-quote-left"></i>
                       </div>
@@ -54,8 +54,8 @@ class Reviews extends React.Component {
                     {/* <span className="post">Web Developer</span> */}
                   </div>
   
-                  <div className="testimonial">
-                    <div className="testimonial-content">
+                  <div className="testimonial ">
+                    <div className="testimonial-content border-0 shadow rounded-3">
                       <div className="testimonial-icon">
                         <i className="fa fa-quote-left"></i>
                       </div>
@@ -67,8 +67,8 @@ class Reviews extends React.Component {
                     {/* <h3 className="title">bhaskar donepudi</h3> */}
                     {/* <span className="post">Web Developer</span> */}
                   </div>
-                  <div className="testimonial">
-                    <div className="testimonial-content">
+                  <div className="testimonial ">
+                    <div className="testimonial-content border-0 shadow rounded-3">
                       <div className="testimonial-icon">
                         <i className="fa fa-quote-left"></i>
                       </div>
@@ -80,8 +80,8 @@ class Reviews extends React.Component {
                     
                     {/* <span className="post">Web Developer</span> */}
                   </div>
-                  <div className="testimonial">
-                    <div className="testimonial-content">
+                  <div className="testimonial ">
+                    <div className="testimonial-content border-0 shadow rounded-3">
                       <div className="testimonial-icon">
                         <i className="fa fa-quote-left"></i>
                       </div>

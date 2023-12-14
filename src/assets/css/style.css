@@ -10182,3 +10182,6 @@ section {
   margin-left: 8px!important;
   margin-right: 8px!important;
 }
+.border5{
+  border-radius: 10px!important;
+}

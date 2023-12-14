@@ -51,6 +51,7 @@ class Camapaing extends Component {
                     frameborder="0"
                     allowfullscreen
                     loading="lazy"
+                    style={{borderRadius:'10px'}}
                   ></iframe>
                 </div>
               </div>

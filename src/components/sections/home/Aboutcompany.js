@@ -30,7 +30,7 @@ class TimelineSection extends Component {
           
         return (
           <section id="timeline " style={{ ...backgroundStyles }}>
-              <div className="section-title-wrap section-header text-center pt-5">
+              <div className="section-title-wrap section-header text-center pt-1">
                         <h2 className="title">Tenali Double Horse</h2>
                         <p>At Tenali Double Horse, our journey began in 2005 with a vision to bring excellence and trust to every household in India. Guided by our commitment to quality and customer satisfaction, we have since become a trusted name that resonates with millions.</p>
               </div>
@@ -47,12 +47,9 @@ class TimelineSection extends Component {
                   /> */}
 
                   <div>
-                    <iframe  src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5 mx-auto' allowfullscreen></iframe>
+                    <iframe  src="https://www.youtube.com/embed/kmjjov75uSI?si=BxxlkuhWZ2jppSJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mb-5 mx-auto border5'  allowfullscreen></iframe>
                  </div>
-                  {/* <video className='shadow p-1 mb-5 bg-white rounded image-radius' width="100%" height="60%" controls poster={process.env.PUBLIC_URL + "/assets/img/misc/our-story-poster.png"}>
-                          <source src="/assets/video/tdh-chairmen-video.mp4" type="video/mp4" /> 
-                      </video> */}
-                  {/* <source src={process.env.PUBLIC_URL + "./assets/video/tdh-chairmen-video.mp4"} type="video/mp4" /> */}
+                 
                 
                   {this.props.pagename.pagename === "AboutUs" ? (
                     "") : (
